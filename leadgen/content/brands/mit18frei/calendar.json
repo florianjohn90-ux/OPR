@@ -2258,5 +2258,429 @@
     ],
     "rewritten": false,
     "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l01-instagram",
+    "bankId": "l01",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-29T11:03:00Z",
+    "platform": "instagram",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "Geld vom Staat fürs Kind — die Liste",
+    "angle": "aha",
+    "hook": "So viel Geld schenkt dir der Staat fürs Kind.",
+    "caption": "Speichern! 📌 Die meisten Familien nutzen Punkt 3 und 4 nie — und verschenken damit über die Jahre vierstellige Beträge.\n\nAlle Angaben Stand 2026, ohne Gewähr, keine Steuerberatung — was für euch gilt, klären wir im kostenlosen Förder-Check. Link in Bio.",
+    "hashtags": [
+      "#kindergeld",
+      "#geldvomstaat",
+      "#steuernsparen",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#förderung",
+      "#familienfinanzen",
+      "#elternwissen"
+    ],
+    "headline": "GELD VOM STAAT FÜRS KIND",
+    "items": [
+      {
+        "emoji": "💶",
+        "title": "1. Kindergeld",
+        "text": "ca. 255 €/Monat — automatisch? Nein, beantragen! Über 18 J. summiert: 55.000 €+."
+      },
+      {
+        "emoji": "🧾",
+        "title": "2. Kinderfreibetrag",
+        "text": "Alternativ zum Kindergeld — das Finanzamt prüft automatisch, was besser ist."
+      },
+      {
+        "emoji": "💰",
+        "title": "3. Sparer-Pauschbetrag des Kindes",
+        "text": "1.000 €/Jahr Kapitalerträge steuerfrei — aufs Kind angelegt, nicht auf euch."
+      },
+      {
+        "emoji": "🛡️",
+        "title": "4. Grundfreibetrag des Kindes",
+        "text": "Kinder haben eigene Steuerfreibeträge — beim Kinderdepot richtig nutzbar."
+      },
+      {
+        "emoji": "📈",
+        "title": "5. Der größte Hebel",
+        "text": "Einen Teil davon investieren statt versickern lassen — 18 Jahre Zinseszins."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l02-instagram",
+    "bankId": "l02",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-29T11:03:00Z",
+    "platform": "instagram",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "5 Gründe, warum nichts übrig bleibt",
+    "angle": "schmerz",
+    "hook": "5 Gründe, warum bei euch nichts übrig bleibt.",
+    "caption": "Punkt 4 ändert alles: Der Dauerauftrag am Monatsanfang ist der einzige Spartrick, der wirklich funktioniert. 💡\n\nWie viel bei euch realistisch ist und wohin damit — rechnen wir kostenlos durch. Link in Bio.",
+    "hashtags": [
+      "#sparfehler",
+      "#monatsende",
+      "#haushaltskasse",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#spartipps",
+      "#familienbudget",
+      "#finanztipps"
+    ],
+    "headline": "WARUM NICHTS ÜBRIG BLEIBT",
+    "items": [
+      {
+        "emoji": "📱",
+        "title": "1. Abo-Friedhof",
+        "text": "3 vergessene Abos = 30 €/Monat. Einmal aufräumen, dauerhaft sparen."
+      },
+      {
+        "emoji": "🛒",
+        "title": "2. Klein-Vieh-Käufe",
+        "text": "To-Go-Kaffee & Lieferdienst: oft 100 €+/Monat, fühlt sich nach nichts an."
+      },
+      {
+        "emoji": "🏦",
+        "title": "3. Falsches Konto",
+        "text": "Kontoführungsgebühren & Null-Zins: dein Geld arbeitet gegen dich."
+      },
+      {
+        "emoji": "⏳",
+        "title": "4. 'Später'-Falle",
+        "text": "Sparen, was übrig bleibt = nichts. Umdrehen: erst sparen, dann leben."
+      },
+      {
+        "emoji": "🎯",
+        "title": "5. Kein Ziel",
+        "text": "Ohne Ziel verpufft jeder Vorsatz. Mit Ziel (z. B. fürs Kind) hält er."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l01-facebook",
+    "bankId": "l01",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-29T17:33:00Z",
+    "platform": "facebook",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "Geld vom Staat fürs Kind — die Liste",
+    "angle": "aha",
+    "hook": "So viel Geld schenkt dir der Staat fürs Kind.",
+    "caption": "Speichern! 📌 Die meisten Familien nutzen Punkt 3 und 4 nie — und verschenken damit über die Jahre vierstellige Beträge.\n\nAlle Angaben Stand 2026, ohne Gewähr, keine Steuerberatung — was für euch gilt, klären wir im kostenlosen Förder-Check. Link in Bio.",
+    "hashtags": [
+      "#kindergeld",
+      "#geldvomstaat",
+      "#steuernsparen",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#förderung",
+      "#familienfinanzen",
+      "#elternwissen"
+    ],
+    "headline": "GELD VOM STAAT FÜRS KIND",
+    "items": [
+      {
+        "emoji": "💶",
+        "title": "1. Kindergeld",
+        "text": "ca. 255 €/Monat — automatisch? Nein, beantragen! Über 18 J. summiert: 55.000 €+."
+      },
+      {
+        "emoji": "🧾",
+        "title": "2. Kinderfreibetrag",
+        "text": "Alternativ zum Kindergeld — das Finanzamt prüft automatisch, was besser ist."
+      },
+      {
+        "emoji": "💰",
+        "title": "3. Sparer-Pauschbetrag des Kindes",
+        "text": "1.000 €/Jahr Kapitalerträge steuerfrei — aufs Kind angelegt, nicht auf euch."
+      },
+      {
+        "emoji": "🛡️",
+        "title": "4. Grundfreibetrag des Kindes",
+        "text": "Kinder haben eigene Steuerfreibeträge — beim Kinderdepot richtig nutzbar."
+      },
+      {
+        "emoji": "📈",
+        "title": "5. Der größte Hebel",
+        "text": "Einen Teil davon investieren statt versickern lassen — 18 Jahre Zinseszins."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l02-facebook",
+    "bankId": "l02",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-29T17:33:00Z",
+    "platform": "facebook",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "5 Gründe, warum nichts übrig bleibt",
+    "angle": "schmerz",
+    "hook": "5 Gründe, warum bei euch nichts übrig bleibt.",
+    "caption": "Punkt 4 ändert alles: Der Dauerauftrag am Monatsanfang ist der einzige Spartrick, der wirklich funktioniert. 💡\n\nWie viel bei euch realistisch ist und wohin damit — rechnen wir kostenlos durch. Link in Bio.",
+    "hashtags": [
+      "#sparfehler",
+      "#monatsende",
+      "#haushaltskasse",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#spartipps",
+      "#familienbudget",
+      "#finanztipps"
+    ],
+    "headline": "WARUM NICHTS ÜBRIG BLEIBT",
+    "items": [
+      {
+        "emoji": "📱",
+        "title": "1. Abo-Friedhof",
+        "text": "3 vergessene Abos = 30 €/Monat. Einmal aufräumen, dauerhaft sparen."
+      },
+      {
+        "emoji": "🛒",
+        "title": "2. Klein-Vieh-Käufe",
+        "text": "To-Go-Kaffee & Lieferdienst: oft 100 €+/Monat, fühlt sich nach nichts an."
+      },
+      {
+        "emoji": "🏦",
+        "title": "3. Falsches Konto",
+        "text": "Kontoführungsgebühren & Null-Zins: dein Geld arbeitet gegen dich."
+      },
+      {
+        "emoji": "⏳",
+        "title": "4. 'Später'-Falle",
+        "text": "Sparen, was übrig bleibt = nichts. Umdrehen: erst sparen, dann leben."
+      },
+      {
+        "emoji": "🎯",
+        "title": "5. Kein Ziel",
+        "text": "Ohne Ziel verpufft jeder Vorsatz. Mit Ziel (z. B. fürs Kind) hält er."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l03-instagram",
+    "bankId": "l03",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-30T11:03:00Z",
+    "platform": "instagram",
+    "format": "list",
+    "goal": "trust",
+    "topic": "Viral-Check: ETF-Panikmache",
+    "angle": "mythos",
+    "hook": "Dieses ETF-Gerücht geht gerade viral. Es ist falsch.",
+    "caption": "Wir reiten nicht auf Angst. Wir prüfen sie. 🔍\n\nWenn dich ein viraler Finanz-Post verunsichert: Schick ihn uns per DM — wir machen den Fakten-Check. Kostenlos und ehrlich, auch wenn die Wahrheit langweiliger ist als der Clickbait.\n\nFragen zu eurer Absicherung? Link in Bio.",
+    "hashtags": [
+      "#faktencheck",
+      "#finanzmythen",
+      "#etfpanik",
+      "#fakenews",
+      "#finanzbildung",
+      "#jungeeltern",
+      "#ehrlichefinanzen",
+      "#viralcheck"
+    ],
+    "headline": "VIRAL-CHECK: ETF-PANIK",
+    "items": [
+      {
+        "emoji": "🚨",
+        "title": "Die Behauptung",
+        "text": "'Neues Gesetz: Wer Job verliert, muss sein ETF-Depot zwangsverkaufen!'"
+      },
+      {
+        "emoji": "🔍",
+        "title": "Der Fakten-Check",
+        "text": "Ein solches Pauschal-Gesetz existiert nicht. Die Posts nennen keine Quelle."
+      },
+      {
+        "emoji": "⚖️",
+        "title": "Der wahre Kern",
+        "text": "Beim Bürgergeld gibt es Vermögensgrenzen & Karenzzeiten — differenziert, mit Freibeträgen."
+      },
+      {
+        "emoji": "🧠",
+        "title": "Warum es viral geht",
+        "text": "Angst klickt besser als Wahrheit. Genau davon leben solche Accounts."
+      },
+      {
+        "emoji": "✅",
+        "title": "Was du tun solltest",
+        "text": "Quellen checken, Regeln fürs eigene Bundesland/Jahr prüfen — oder uns fragen."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l04-instagram",
+    "bankId": "l04",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-30T11:03:00Z",
+    "platform": "instagram",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "Sparplan-Start in 10 Minuten",
+    "angle": "how-to",
+    "hook": "Sparplan fürs Kind in 10 Minuten — die komplette Liste.",
+    "caption": "Speichern & abarbeiten. 📌 Bei Minute 5–6 stolpern die meisten — genau da setzen wir im kostenlosen Gespräch an, bevor der erste Euro fließt.\n\nRisikohinweis: ETFs schwanken, Verluste möglich. Link in Bio.",
+    "hashtags": [
+      "#sparplan",
+      "#schrittfürschritt",
+      "#etffürkinder",
+      "#kinderdepot",
+      "#jungeeltern",
+      "#checkliste",
+      "#sparenfürskind",
+      "#10minuten"
+    ],
+    "headline": "START IN 10 MINUTEN",
+    "items": [
+      {
+        "emoji": "🎯",
+        "title": "Minute 1–2: Ziel festlegen",
+        "text": "Ausbildung? Startkapital? Das Ziel bestimmt alles Weitere."
+      },
+      {
+        "emoji": "💶",
+        "title": "Minute 3–4: Rate wählen",
+        "text": "25 € reichen. Erhöhen geht immer — die verlorene Zeit holst du nie zurück."
+      },
+      {
+        "emoji": "👶",
+        "title": "Minute 5–6: Kind oder Eltern?",
+        "text": "Die wichtigste Weiche: Steuern, Kontrolle, Zugriff mit 18."
+      },
+      {
+        "emoji": "🌍",
+        "title": "Minute 7–8: Breit streuen",
+        "text": "Weltweit gestreut statt Einzelwetten — langweilig ist hier gut."
+      },
+      {
+        "emoji": "🔁",
+        "title": "Minute 9–10: Automatisieren",
+        "text": "Dauerauftrag an. Ab jetzt arbeitet die Zeit — nicht du."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l03-facebook",
+    "bankId": "l03",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-30T17:33:00Z",
+    "platform": "facebook",
+    "format": "list",
+    "goal": "trust",
+    "topic": "Viral-Check: ETF-Panikmache",
+    "angle": "mythos",
+    "hook": "Dieses ETF-Gerücht geht gerade viral. Es ist falsch.",
+    "caption": "Wir reiten nicht auf Angst. Wir prüfen sie. 🔍\n\nWenn dich ein viraler Finanz-Post verunsichert: Schick ihn uns per DM — wir machen den Fakten-Check. Kostenlos und ehrlich, auch wenn die Wahrheit langweiliger ist als der Clickbait.\n\nFragen zu eurer Absicherung? Link in Bio.",
+    "hashtags": [
+      "#faktencheck",
+      "#finanzmythen",
+      "#etfpanik",
+      "#fakenews",
+      "#finanzbildung",
+      "#jungeeltern",
+      "#ehrlichefinanzen",
+      "#viralcheck"
+    ],
+    "headline": "VIRAL-CHECK: ETF-PANIK",
+    "items": [
+      {
+        "emoji": "🚨",
+        "title": "Die Behauptung",
+        "text": "'Neues Gesetz: Wer Job verliert, muss sein ETF-Depot zwangsverkaufen!'"
+      },
+      {
+        "emoji": "🔍",
+        "title": "Der Fakten-Check",
+        "text": "Ein solches Pauschal-Gesetz existiert nicht. Die Posts nennen keine Quelle."
+      },
+      {
+        "emoji": "⚖️",
+        "title": "Der wahre Kern",
+        "text": "Beim Bürgergeld gibt es Vermögensgrenzen & Karenzzeiten — differenziert, mit Freibeträgen."
+      },
+      {
+        "emoji": "🧠",
+        "title": "Warum es viral geht",
+        "text": "Angst klickt besser als Wahrheit. Genau davon leben solche Accounts."
+      },
+      {
+        "emoji": "✅",
+        "title": "Was du tun solltest",
+        "text": "Quellen checken, Regeln fürs eigene Bundesland/Jahr prüfen — oder uns fragen."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
+  },
+  {
+    "id": "mit18frei-l04-facebook",
+    "bankId": "l04",
+    "brandId": "mit18frei",
+    "scheduledFor": "2026-06-30T17:33:00Z",
+    "platform": "facebook",
+    "format": "list",
+    "goal": "conversion",
+    "topic": "Sparplan-Start in 10 Minuten",
+    "angle": "how-to",
+    "hook": "Sparplan fürs Kind in 10 Minuten — die komplette Liste.",
+    "caption": "Speichern & abarbeiten. 📌 Bei Minute 5–6 stolpern die meisten — genau da setzen wir im kostenlosen Gespräch an, bevor der erste Euro fließt.\n\nRisikohinweis: ETFs schwanken, Verluste möglich. Link in Bio.",
+    "hashtags": [
+      "#sparplan",
+      "#schrittfürschritt",
+      "#etffürkinder",
+      "#kinderdepot",
+      "#jungeeltern",
+      "#checkliste",
+      "#sparenfürskind",
+      "#10minuten"
+    ],
+    "headline": "START IN 10 MINUTEN",
+    "items": [
+      {
+        "emoji": "🎯",
+        "title": "Minute 1–2: Ziel festlegen",
+        "text": "Ausbildung? Startkapital? Das Ziel bestimmt alles Weitere."
+      },
+      {
+        "emoji": "💶",
+        "title": "Minute 3–4: Rate wählen",
+        "text": "25 € reichen. Erhöhen geht immer — die verlorene Zeit holst du nie zurück."
+      },
+      {
+        "emoji": "👶",
+        "title": "Minute 5–6: Kind oder Eltern?",
+        "text": "Die wichtigste Weiche: Steuern, Kontrolle, Zugriff mit 18."
+      },
+      {
+        "emoji": "🌍",
+        "title": "Minute 7–8: Breit streuen",
+        "text": "Weltweit gestreut statt Einzelwetten — langweilig ist hier gut."
+      },
+      {
+        "emoji": "🔁",
+        "title": "Minute 9–10: Automatisieren",
+        "text": "Dauerauftrag an. Ab jetzt arbeitet die Zeit — nicht du."
+      }
+    ],
+    "rewritten": false,
+    "status": "scheduled"
   }
 ]

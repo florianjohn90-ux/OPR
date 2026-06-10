@@ -36,10 +36,11 @@ Original:
 Hook: ${piece.hooks[0]}
 Caption: ${piece.caption}
 ${piece.slides ? 'Slides: ' + JSON.stringify(piece.slides) : ''}
+${piece.items ? 'Listen-Punkte: ' + JSON.stringify(piece.items) + '\nHeadline: ' + piece.headline : ''}
 ${piece.script ? 'Reel-Voiceover: ' + piece.script.voiceover + '\nSzenen: ' + JSON.stringify(piece.script.scenes) : ''}
 
 Antworte NUR als JSON:
-{"hook":"...","caption":"...","hashtags":["8 passende, zur Marke/Nische, deutsch"]${piece.slides ? ',"slides":["gleiche Anzahl Slides, neu getextet"]' : ''}${piece.script ? ',"script":{"voiceover":"...","scenes":[{"text":"...","dur":N}]}' : ''}}`,
+{"hook":"...","caption":"...","hashtags":["8 passende, zur Marke/Nische, deutsch"]${piece.slides ? ',"slides":["gleiche Anzahl Slides, neu getextet"]' : ''}${piece.items ? ',"headline":"KURZE VERSALIEN-HEADLINE","items":[{"emoji":"...","title":"...","text":"max 90 Zeichen"}]' : ''}${piece.script ? ',"script":{"voiceover":"...","scenes":[{"text":"...","dur":N}]}' : ''}}`,
     { maxTokens: 2500, temperature: 0.95 }
   );
   return extractJson(out);
@@ -80,6 +81,7 @@ for (let bi = 0; bi < brands.length; bi++) {
         caption: v?.caption || piece.caption,
         hashtags: v?.hashtags || piece.hashtags,
         ...(piece.slides ? { slides: v?.slides?.length === piece.slides.length ? v.slides : piece.slides } : {}),
+        ...(piece.items ? { headline: v?.headline || piece.headline, items: v?.items?.length ? v.items : piece.items } : {}),
         ...(piece.script ? { script: v?.script?.scenes?.length ? v.script : piece.script } : {}),
         rewritten: !!v,
         status: 'scheduled'

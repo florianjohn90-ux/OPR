@@ -116,6 +116,20 @@ Higgsfield liefert das Foto/Video, unser Renderer legt Marken-Typo + CTA + Discl
 
 ---
 
+## Bewährte Viral-Formate der Nische (aus Wettbewerber-Referenzen)
+
+1. **Highlight-Listicle** (eingebaut als Format `list`): rote Versalien-Headline mit
+   Textmarker, nummerierte Emoji-Punkte, Gelb-Markierung auf Schlüsselzeilen,
+   „JETZT MERKEN"-Button. Das Save-&-Share-Arbeitspferd der Finanz-Nische.
+2. **Creator-Cutout-Cover** (für Reels): freigestellte Person der Marken-Bildwelt
+   auf knalligem Flächengrund + große Frage/Zahl + Pfeil-Doodles. Higgsfield-Prompt-
+   Zusatz: `studio portrait, pointing gesture / thinking pose, plain background for
+   cutout, consistent character` — Cutout + Typo macht der Renderer.
+3. **Zahlen-Hooks:** „255 € vom Staat", „5 Gründe", „in 10 Minuten" — Zahl zuerst.
+4. **Viral-/Fakten-Check:** kursierende Angst-Posts ehrlich zerlegen — nutzt die
+   virale Welle, positioniert uns als die Vertrauenswürdigen. NIE selbst Angst-Claims
+   erfinden (rechtlich + Marke tödlich).
+
 ## Workflow morgen (mit Higgsfield-Zugang)
 
 1. `node media-briefs.mjs` läuft automatisch mit — pro Marke liegt in

@@ -40,7 +40,12 @@ ${insightBlock}
 Erstelle ${BATCH} NEUE Posts. Vermeide Dopplungen zu: ${bank.map(b => b.topic).join('; ')}
 
 PFLICHT-MIX:
-- Formate: 4x "reel" (mit script), 4x "carousel" (mit slides, 5-7 Stueck), 4x "image"
+- Formate: 4x "reel" (mit script), 3x "carousel" (mit slides, 5-7 Stueck), 3x "image",
+  2x "list" (Highlight-Listicle: headline in VERSALIEN + 5 items mit emoji/title/text)
+- Hook-Mechanik (nachweislich viral in der Nische): konkrete Zahlen ("255 € vom Staat"),
+  Speicher-Listen ("Die komplette Liste"), Viral-/Fakten-Checks zu kursierenden
+  Finanz-Geruechten (Angst-Claims ENTKRAEFTEN, nie selbst erfinden), "Diese Fehler
+  kosten dich X". WICHTIG: Alle Zahlen real und mit "ca./Stand 2026, ohne Gewähr".
 - Saeulen ("goal"): 6x "conversion" (CTA Erstgespraech), 4x "trust" (persoenlich,
   hinter den Kulissen, ehrliche Einblicke — CTA optional/weich), 2x "engagement"
   (Community-Frage mit A/B/C/D-Antwortoptionen in der Caption, KEIN Verkaufs-CTA)

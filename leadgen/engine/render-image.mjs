@@ -4,7 +4,7 @@
 //   reel     -> uebersprungen (render-video.mjs)
 import { readFile, writeFile, access } from 'node:fs/promises';
 import sharp from 'sharp';
-import { renderCard, photoOverlay } from './lib/templates.mjs';
+import { renderCard, photoOverlay, renderList } from './lib/templates.mjs';
 import { loadBrands, brandDir } from './lib/brands.mjs';
 
 // Higgsfield-Foto vorhanden? -> Composite statt Grafik-Card.
@@ -48,7 +48,12 @@ for (const brand of brands) {
     };
     const media = await mediaFor(dir, post.bankId);
 
-    if (post.format === 'carousel' && Array.isArray(post.slides)) {
+    if (post.format === 'list' && Array.isArray(post.items)) {
+      if (post.assetPath) continue;
+      post.assetPath = await out(
+        renderList({ headline: post.headline || post.hook, items: post.items, brand, seed: post.id }),
+        `${post.bankId || post.id}-${post.platform}.jpg`);
+    } else if (post.format === 'carousel' && Array.isArray(post.slides)) {
       if (post.assetPaths?.length === post.slides.length && post.usedMedia === !!media) continue;
       const paths = [];
       for (let s = 0; s < post.slides.length; s++) {

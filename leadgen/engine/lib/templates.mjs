@@ -283,6 +283,48 @@ export function photoOverlay({ W = 1080, H = 1350, text, brand, footer = true })
 </svg>`;
 }
 
+// Highlight-Listicle (Finfluencer-Stil): rote Schock-Headline, Emoji-Punkte,
+// Textmarker-Gelb auf Schluesselzeilen, "JETZT MERKEN"-Button. Save-&-Share-Format.
+export function renderList({ W = 1080, H = 1350, headline, items, brand, seed = '' }) {
+  const p = brand.palette, r = rng(seed);
+  const headLines = wrap(headline, 24);
+  const hfs = 58;
+  let y = 100;
+  let svg = `<rect width="${W}" height="${H}" fill="#faf6ec"/>
+  <rect x="0" y="0" width="${W}" height="10" fill="#c0271d"/>`;
+  // Headline rot + fett, leicht gekippt wie beim Original.
+  for (const hl of headLines) {
+    const tw = hl.length * hfs * 0.52;
+    svg += `<g transform="rotate(${(r() - 0.5) * 1.6} ${W / 2} ${y + hfs / 2})">
+    <rect x="${(W - tw) / 2 - 14}" y="${y}" width="${tw + 28}" height="${hfs + 14}" fill="#ffe34d"/>
+    <text x="${W / 2}" y="${y + hfs}" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="${hfs}" font-weight="900" fill="#c0271d">${esc(hl)}</text></g>`;
+    y += hfs + 26;
+  }
+  y += 26;
+  // Items: Emoji-Kreis + fetter Titel + markierte Textzeilen.
+  for (const it of items) {
+    const bodyLines = wrap(it.text, 40);
+    svg += `<circle cx="110" cy="${y + 20}" r="36" fill="#fff" stroke="#e5dcc3" stroke-width="2"/>
+    <text x="110" y="${y + 34}" text-anchor="middle" font-size="38">${esc(it.emoji)}</text>
+    <text x="175" y="${y + 14}" font-family="Arial, sans-serif" font-size="34" font-weight="800" fill="#1c1c1c">${esc(it.title)}</text>`;
+    let ly = y + 62;
+    for (const bl of bodyLines) {
+      const tw = bl.length * 28 * 0.52;
+      svg += `<rect x="171" y="${ly - 26}" width="${tw + 12}" height="38" fill="#ffe34d" opacity="0.9"/>
+      <text x="177" y="${ly}" font-family="Arial, sans-serif" font-size="28" fill="#1c1c1c">${esc(bl)}</text>`;
+      ly += 44;
+    }
+    y = ly + 28;
+  }
+  // Button + Disclaimer.
+  svg += `<g transform="rotate(${(r() - 0.5) * 2} ${W / 2} ${H - 170})">
+  <rect x="${W / 2 - 250}" y="${H - 205}" width="500" height="74" rx="37" fill="${p.accent}"/>
+  <text x="${W / 2}" y="${H - 156}" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="32" font-weight="900" fill="#fff">JETZT MERKEN ⤴ LINK IN BIO</text></g>
+  <text x="${W / 2}" y="${H - 92}" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#8a8068">${esc(brand.emoji)} ${esc(brand.name)}</text>
+  <text x="${W / 2}" y="${H - 58}" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#a89e84">Keine Anlage-/Steuerberatung · Angaben ohne Gewähr · Kapitalanlagen bergen Verlustrisiken</text>`;
+  return `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">${svg}</svg>`;
+}
+
 // Video-Szenen-Card (9:16) — nutzt Markenfarben/-fonts, vereinfachtes Layout.
 export function renderScene({ W = 1080, H = 1920, text, idx, total, brand }) {
   const p = brand.palette;
