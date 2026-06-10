@@ -1,9 +1,8 @@
-# Secrets & Laufzeitdaten – niemals committen
+# Secrets & lokale Laufzeitdaten – niemals committen
 .env
 node_modules/
 data/
-content/batch-*.json
-content/batch-*.md
-content/topics.json
-content/calendar.json
 content/to-post.md
+
+# Hinweis: bank.json, calendar.json und content/assets/ werden BEWUSST committet —
+# der GitHub-Actions-Autopilot liest und aktualisiert sie im Repo.

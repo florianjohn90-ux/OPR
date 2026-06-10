@@ -13,6 +13,7 @@
     "run:all": "node research.mjs && node generate.mjs --count 30 && node calendar.mjs"
   },
   "dependencies": {
-    "nodemailer": "^6.9.14"
+    "nodemailer": "^6.9.14",
+    "sharp": "^0.33.4"
   }
 }

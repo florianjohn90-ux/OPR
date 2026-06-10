@@ -1,0 +1,76 @@
+# Social-Media-Autopilot fuer leadgen/ — laeuft ohne menschliches Zutun.
+#
+# Job "publish":   alle 30 Min (07–20 UTC) — postet faellige Posts auf FB (+ IG,
+#                  wenn PUBLIC_ASSET_BASE gesetzt) und committet den Status zurueck.
+# Job "replenish": taeglich 03:00 UTC — generiert neuen Content, wenn der Vorrat
+#                  unter 1 Woche faellt, plant ihn ein und rendert die Bilder.
+#
+# Benoetigte Repo-Secrets (Settings -> Secrets and variables -> Actions):
+#   META_PAGE_ID, META_PAGE_TOKEN, META_IG_USER_ID, ANTHROPIC_API_KEY
+# Optionale Repo-Variable: PUBLIC_ASSET_BASE (oeffentliche Basis-URL der Bilder)
+name: Social Autopilot
+
+on:
+  schedule:
+    - cron: '*/30 7-20 * * *'
+    - cron: '0 3 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: social-autopilot
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.event.schedule != '0 3 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Publish due posts
+        working-directory: leadgen/engine
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          PUBLIC_ASSET_BASE: ${{ vars.PUBLIC_ASSET_BASE }}
+        run: node publish-meta.mjs
+      - name: Commit status
+        run: |
+          git config user.name "social-autopilot"
+          git config user.email "actions@github.com"
+          git add leadgen/content/calendar.json
+          git diff --cached --quiet || git commit -m "autopilot: publish status update"
+          git push
+
+  replenish:
+    if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Install deps
+        working-directory: leadgen/engine
+        run: npm install --no-audit --no-fund
+      - name: Replenish content bank
+        working-directory: leadgen/engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node replenish.mjs
+      - name: Schedule + render images
+        working-directory: leadgen/engine
+        run: |
+          node calendar.mjs
+          node render-image.mjs
+      - name: Commit new content
+        run: |
+          git config user.name "social-autopilot"
+          git config user.email "actions@github.com"
+          git add leadgen/content/
+          git diff --cached --quiet || git commit -m "autopilot: replenish content bank + schedule + assets"
+          git push

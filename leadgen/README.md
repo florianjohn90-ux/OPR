@@ -38,7 +38,45 @@ Ziel-Output: **20 stattfindende 60-Min-Termine pro Woche** (Beratung & Abschluss
 
 ---
 
-## 2. Was du eintragen musst (Credentials & Config)
+## 2. AUTOPILOT — die Maschine läuft ohne dich
+
+Der komplette Betrieb läuft über **GitHub Actions** (`.github/workflows/social-autopilot.yml`):
+
+- **Alle 30 Min (07–20 UTC):** postet fällige Posts aus `content/calendar.json`
+  automatisch auf die Facebook-Seite (Bild wird direkt hochgeladen) und auf
+  Instagram (sobald `PUBLIC_ASSET_BASE` gesetzt ist). Status wird ins Repo committet.
+- **Täglich 03:00 UTC:** prüft den Content-Vorrat. Unter 1 Woche? Dann generiert
+  Claude automatisch 12 neue Posts (`replenish.mjs`), plant sie ein (`calendar.mjs`)
+  und rendert die Bilder (`render-image.mjs`). Nachschub ist also unendlich.
+
+**Bereits fertig im Repo:** 24 handgeschriebene Posts (`content/bank.json`),
+48 eingeplante Slots über ~12 Tage (`content/calendar.json`) und 48 fertig
+gerenderte Post-Grafiken (`content/assets/*.jpg`) — Branding, Hook, CTA,
+Pflichthinweis, alles drauf.
+
+### Der EINZIGE einmalige Handgriff (≈10 Minuten, danach 0 Arbeit)
+
+Zugänge kann dir niemand abnehmen — Meta vergibt Tokens nur an den Konto-Inhaber.
+Einmal eintragen unter **GitHub → Repo → Settings → Secrets and variables → Actions**:
+
+| Secret | Woher |
+|---|---|
+| `META_PAGE_ID` | deine Facebook-Seite → Info |
+| `META_PAGE_TOKEN` | developers.facebook.com → Page Access Token (long-lived) |
+| `META_IG_USER_ID` | mit der Seite verknüpfter IG-Business-Account |
+| `ANTHROPIC_API_KEY` | console.anthropic.com (für den Content-Nachschub) |
+
+Optional als Repository-**Variable**: `PUBLIC_ASSET_BASE` = öffentliche Basis-URL
+der Bilder (z. B. `https://raw.githubusercontent.com/<user>/<repo>/<branch>/leadgen`
+bei öffentlichem Repo, sonst Funnel-Hosting-URL). Ohne sie laufen Facebook-Posts
+trotzdem voll automatisch; Instagram braucht die URL (Meta lädt IG-Bilder nur von
+öffentlichen URLs).
+
+Sobald die Secrets drin sind: nichts mehr tun. Posten, Nachschub, Status — alles automatisch.
+
+---
+
+## 3. Manuelle Nutzung (optional, für lokalen Betrieb)
 
 Kopiere `engine/.env.example` nach `engine/.env` und fülle aus:
 
