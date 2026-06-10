@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ETF-Sparplan fürs Kind – Schenk deinem Kind einen finanziellen Vorsprung</title>
+<meta name="description" content="Mit einem ETF-Sparplan ab 25 €/Monat baust du deinem Kind ein Vermögen auf. Kostenloses Erstgespräch – persönlich, unverbindlich." />
+<style>
+  :root{
+    --bg:#0e1726; --bg2:#13203a; --card:#15233f; --line:#24365c;
+    --ink:#eaf1ff; --dim:#9fb2d6; --brand:#36c08a; --brand2:#2aa978;
+    --accent:#ffce4d; --danger:#ff6b6b; --radius:16px;
+    --max:1080px;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,Roboto,Helvetica,Arial,sans-serif;
+    background:radial-gradient(1200px 600px at 50% -10%,#1b2c4e 0%,var(--bg) 55%);color:var(--ink);line-height:1.55}
+  a{color:var(--brand)}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+  /* Header */
+  header{position:sticky;top:0;z-index:50;backdrop-filter:blur(10px);
+    background:rgba(14,23,38,.82);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .logo{font-weight:800;letter-spacing:.3px;font-size:18px}
+  .logo span{color:var(--brand)}
+  .btn{display:inline-block;border:0;cursor:pointer;font-weight:700;border-radius:12px;
+    padding:14px 22px;font-size:16px;text-decoration:none;transition:.15s transform,.15s box-shadow}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:linear-gradient(180deg,var(--brand),var(--brand2));color:#06281c;
+    box-shadow:0 8px 24px rgba(54,192,138,.28)}
+  .btn-ghost{background:transparent;border:1px solid var(--line);color:var(--ink)}
+  .btn-sm{padding:10px 16px;font-size:14px}
+  /* Hero */
+  .hero{padding:64px 0 36px;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+  .eyebrow{display:inline-block;background:rgba(54,192,138,.12);border:1px solid rgba(54,192,138,.35);
+    color:var(--brand);padding:6px 12px;border-radius:999px;font-size:13px;font-weight:700;margin-bottom:18px}
+  h1{font-size:clamp(30px,4.4vw,50px);line-height:1.08;margin:0 0 16px;letter-spacing:-.5px}
+  h1 em{color:var(--accent);font-style:normal}
+  .lead{font-size:19px;color:var(--dim);margin:0 0 26px;max-width:38ch}
+  .cta-row{display:flex;gap:14px;flex-wrap:wrap}
+  .trust{display:flex;gap:22px;margin-top:26px;flex-wrap:wrap;color:var(--dim);font-size:14px}
+  .trust b{color:var(--ink)}
+  /* Calculator card */
+  .card{background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid var(--line);
+    border-radius:var(--radius);padding:26px}
+  .calc h3{margin:0 0 4px;font-size:20px}
+  .calc .sub{color:var(--dim);font-size:14px;margin:0 0 18px}
+  .field{margin:14px 0}
+  .field label{display:flex;justify-content:space-between;font-size:14px;color:var(--dim);margin-bottom:8px}
+  .field label b{color:var(--ink)}
+  input[type=range]{width:100%;accent-color:var(--brand)}
+  .result{margin-top:18px;padding:18px;border-radius:12px;background:rgba(54,192,138,.10);
+    border:1px solid rgba(54,192,138,.3);text-align:center}
+  .result .big{font-size:38px;font-weight:800;color:var(--brand);line-height:1}
+  .result .small{color:var(--dim);font-size:13px;margin-top:6px}
+  .disclaimer{font-size:11px;color:#7388ad;margin-top:10px;text-align:center}
+  /* Sections */
+  section{padding:54px 0}
+  .section-title{font-size:clamp(24px,3vw,34px);margin:0 0 8px;text-align:center}
+  .section-sub{color:var(--dim);text-align:center;max-width:60ch;margin:0 auto 36px}
+  .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px}
+  .step .num{width:38px;height:38px;border-radius:10px;display:grid;place-items:center;font-weight:800;
+    background:rgba(255,206,77,.14);color:var(--accent);margin-bottom:14px}
+  .step h4{margin:0 0 8px;font-size:18px}
+  .step p{margin:0;color:var(--dim);font-size:15px}
+  /* Quiz */
+  .quiz{max-width:680px;margin:0 auto}
+  .quiz-card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px;min-height:300px}
+  .progress{height:6px;background:var(--bg);border-radius:999px;overflow:hidden;margin-bottom:22px}
+  .progress>div{height:100%;width:20%;background:var(--brand);transition:width .3s}
+  .q-step{display:none}
+  .q-step.active{display:block;animation:fade .3s}
+  @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+  .q-step h3{margin:0 0 18px;font-size:22px}
+  .opt{display:block;width:100%;text-align:left;background:var(--bg2);border:1px solid var(--line);
+    color:var(--ink);padding:16px 18px;border-radius:12px;margin-bottom:12px;cursor:pointer;font-size:16px;transition:.12s}
+  .opt:hover{border-color:var(--brand);background:rgba(54,192,138,.08)}
+  .opt.sel{border-color:var(--brand);background:rgba(54,192,138,.14)}
+  input[type=email],input[type=text]{width:100%;padding:15px 16px;border-radius:12px;border:1px solid var(--line);
+    background:var(--bg2);color:var(--ink);font-size:16px}
+  .consent{display:flex;gap:10px;align-items:flex-start;font-size:13px;color:var(--dim);margin:16px 0}
+  .consent input{margin-top:3px}
+  .q-nav{display:flex;justify-content:space-between;margin-top:18px}
+  .muted{color:var(--dim);font-size:14px}
+  /* Booking */
+  .booking{max-width:760px;margin:0 auto;text-align:center}
+  .cal-embed{margin-top:24px;min-height:120px}
+  /* FAQ */
+  .faq{max-width:760px;margin:0 auto}
+  details{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px 18px;margin-bottom:12px}
+  summary{cursor:pointer;padding:14px 0;font-weight:600;list-style:none}
+  summary::-webkit-details-marker{display:none}
+  details[open] summary{color:var(--brand)}
+  details p{color:var(--dim);margin:0 0 14px}
+  /* Footer */
+  footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-size:13px}
+  .foot-links{display:flex;gap:18px;flex-wrap:wrap;margin-bottom:14px}
+  .risk{background:rgba(255,107,107,.07);border:1px solid rgba(255,107,107,.25);border-radius:12px;
+    padding:14px 16px;font-size:12px;color:#cbb}
+  @media(max-width:860px){.hero{grid-template-columns:1fr;padding-top:40px}.grid3{grid-template-columns:1fr}
+    .nav .btn{display:none}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="logo">FNF<span>•</span>Finanzen</div>
+    <a href="#buchung" class="btn btn-primary btn-sm">Kostenloses Erstgespräch</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="wrap hero">
+  <div>
+    <span class="eyebrow">Für Eltern, die früh anfangen wollen</span>
+    <h1>Schenk deinem Kind einen <em>Vorsprung von zehntausenden Euro</em>.</h1>
+    <p class="lead">Mit einem ETF-Sparplan ab 25 €/Monat baust du deinem Kind ruhig und planbar ein Vermögen auf – für Führerschein, Ausbildung oder den Start ins eigene Leben.</p>
+    <div class="cta-row">
+      <a href="#buchung" class="btn btn-primary">Erstgespräch sichern →</a>
+      <a href="#rechner" class="btn btn-ghost">Erst rechnen lassen</a>
+    </div>
+    <div class="trust">
+      <div><b>Unverbindlich</b> & kostenlos</div>
+      <div><b>Persönlich</b> – kein Verkaufsdruck</div>
+      <div><b>Ab 25 €</b>/Monat möglich</div>
+    </div>
+  </div>
+
+  <!-- CALCULATOR -->
+  <div class="card calc" id="rechner">
+    <h3>Was wird daraus für dein Kind?</h3>
+    <p class="sub">Bewege die Regler – sieh den Effekt sofort.</p>
+    <div class="field">
+      <label>Monatlicher Sparbetrag <b id="vRate">50 €</b></label>
+      <input type="range" id="rate" min="25" max="500" step="5" value="50" />
+    </div>
+    <div class="field">
+      <label>Alter deines Kindes heute <b id="vAge">2 Jahre</b></label>
+      <input type="range" id="age" min="0" max="16" step="1" value="2" />
+    </div>
+    <div class="field">
+      <label>Angenommene Rendite p.a. <b id="vRet">6 %</b></label>
+      <input type="range" id="ret" min="3" max="8" step="1" value="6" />
+    </div>
+    <div class="result">
+      <div class="big" id="out">0 €</div>
+      <div class="small">geschätztes Vermögen zum 18. Geburtstag · davon eingezahlt: <span id="paid">0 €</span></div>
+    </div>
+    <p class="disclaimer">Beispielrechnung, keine Garantie. ETFs unterliegen Kursschwankungen, Verluste sind möglich. Keine Anlageberatung.</p>
+    <a href="#buchung" class="btn btn-primary" style="width:100%;text-align:center;margin-top:16px">So holst du das raus →</a>
+  </div>
+</div>
+
+<!-- HOW IT WORKS -->
+<section>
+  <div class="wrap">
+    <h2 class="section-title">In 3 Schritten zum Sparplan</h2>
+    <p class="section-sub">Kein Fachchinesisch, kein Druck. Wir sortieren gemeinsam, was zu deiner Familie passt.</p>
+    <div class="grid3">
+      <div class="step"><div class="num">1</div><h4>Kostenloses Erstgespräch</h4><p>60 Minuten, online. Wir schauen auf eure Situation, dein Ziel und was monatlich realistisch ist.</p></div>
+      <div class="step"><div class="num">2</div><h4>Dein Plan, klar erklärt</h4><p>Du bekommst eine verständliche Empfehlung – Chancen und Risiken offen auf dem Tisch.</p></div>
+      <div class="step"><div class="num">3</div><h4>Einrichten & loslaufen</h4><p>Sparplan wird eingerichtet. Ab dann arbeitet die Zeit für dein Kind, automatisch.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUIZ -->
+<section style="background:rgba(255,255,255,.02)">
+  <div class="wrap">
+    <h2 class="section-title">Passt das zu euch? 30-Sekunden-Check</h2>
+    <p class="section-sub">4 kurze Fragen – danach siehst du direkt freie Gesprächstermine.</p>
+    <div class="quiz">
+      <div class="quiz-card">
+        <div class="progress"><div id="bar"></div></div>
+
+        <div class="q-step active" data-step="1">
+          <h3>Wie alt ist dein Kind?</h3>
+          <button class="opt" data-q="alter" data-v="0-2">0–2 Jahre</button>
+          <button class="opt" data-q="alter" data-v="3-6">3–6 Jahre</button>
+          <button class="opt" data-q="alter" data-v="7-12">7–12 Jahre</button>
+          <button class="opt" data-q="alter" data-v="13-17">13–17 Jahre</button>
+          <button class="opt" data-q="alter" data-v="erwartet">Unterwegs / erwartet</button>
+        </div>
+
+        <div class="q-step" data-step="2">
+          <h3>Was könntest du monatlich zur Seite legen?</h3>
+          <button class="opt" data-q="rate" data-v="25-49">25–49 €</button>
+          <button class="opt" data-q="rate" data-v="50-99">50–99 €</button>
+          <button class="opt" data-q="rate" data-v="100-199">100–199 €</button>
+          <button class="opt" data-q="rate" data-v="200+">200 € oder mehr</button>
+        </div>
+
+        <div class="q-step" data-step="3">
+          <h3>Was ist dein wichtigstes Ziel?</h3>
+          <button class="opt" data-q="ziel" data-v="ausbildung">Ausbildung / Studium absichern</button>
+          <button class="opt" data-q="ziel" data-v="startkapital">Startkapital mit 18</button>
+          <button class="opt" data-q="ziel" data-v="flexibel">Einfach früh & flexibel vorsorgen</button>
+        </div>
+
+        <div class="q-step" data-step="4">
+          <h3>Wie ist dein Stand?</h3>
+          <button class="opt" data-q="stand" data-v="neu">Ganz neu beim Thema</button>
+          <button class="opt" data-q="stand" data-v="etwas">Etwas Erfahrung</button>
+          <button class="opt" data-q="stand" data-v="aktiv">Spare schon, will optimieren</button>
+        </div>
+
+        <div class="q-step" data-step="5">
+          <h3>Top – wohin schicken wir deine persönliche Einschätzung?</h3>
+          <p class="muted" style="margin-top:-8px">Du bekommst sie per E-Mail und kannst direkt einen Termin wählen.</p>
+          <div class="field" style="margin-top:14px">
+            <input type="text" id="lname" placeholder="Vorname" />
+          </div>
+          <div class="field">
+            <input type="email" id="email" placeholder="E-Mail-Adresse" />
+          </div>
+          <label class="consent">
+            <input type="checkbox" id="consent" />
+            <span>Ich möchte meine Einschätzung & Infos zum ETF-Sparplan per E-Mail erhalten und stimme der <a href="#datenschutz" target="_blank">Datenschutzerklärung</a> zu. Widerruf jederzeit möglich.</span>
+          </label>
+          <button class="btn btn-primary" id="submitLead" style="width:100%">Einschätzung sichern & Termine sehen →</button>
+          <p class="muted" id="leadMsg" style="margin-top:12px;text-align:center"></p>
+        </div>
+
+        <div class="q-nav">
+          <button class="btn btn-ghost btn-sm" id="back" style="visibility:hidden">← Zurück</button>
+          <span class="muted" id="stepLabel">Frage 1 von 5</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="buchung">
+  <div class="wrap booking">
+    <h2 class="section-title">Kostenloses Erstgespräch buchen</h2>
+    <p class="section-sub">60 Minuten, online, unverbindlich. Wähle einfach einen Slot, der dir passt.</p>
+    <!-- cal.com Inline-Embed -->
+    <div class="cal-embed">
+      <div id="my-cal-inline" style="min-height:600px;width:100%"></div>
+    </div>
+    <p class="muted">Lieber zuerst Fragen? Schreib uns – wir melden uns am selben Tag.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section style="background:rgba(255,255,255,.02)">
+  <div class="wrap">
+    <h2 class="section-title">Häufige Fragen</h2>
+    <div class="faq" style="margin-top:30px">
+      <details><summary>Ist das Erstgespräch wirklich kostenlos?</summary><p>Ja, komplett. Es ist ein unverbindliches Kennenlernen, in dem wir deine Situation und Ziele anschauen. Ob du danach etwas einrichtest, entscheidest du in Ruhe.</p></details>
+      <details><summary>Ab wie viel Geld lohnt sich das?</summary><p>Schon ab 25 € im Monat. Entscheidend ist nicht die Höhe, sondern der frühe Start – Zeit ist beim Vermögensaufbau der größte Hebel.</p></details>
+      <details><summary>Sind ETFs nicht riskant?</summary><p>ETFs schwanken im Wert, kurzfristig kann es auch nach unten gehen. Über lange Zeiträume – und genau die hast du beim Sparen fürs Kind – haben breit gestreute ETFs historisch gut abgeschnitten. Wir besprechen Chancen und Risiken offen.</p></details>
+      <details><summary>Komme ich an das Geld, wenn ich es brauche?</summary><p>Das hängt von der gewählten Gestaltung ab – auch das klären wir im Gespräch, damit der Plan zu eurem Leben passt.</p></details>
+      <details><summary>Kann ich später Betrag ändern oder pausieren?</summary><p>In der Regel ja. Sparpläne sind flexibel – erhöhen, senken oder aussetzen ist meist problemlos möglich.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="risk">
+      <b>Wichtiger Hinweis:</b> Diese Seite stellt keine Anlageberatung dar und ist keine Aufforderung zum Kauf.
+      Kapitalanlagen in Wertpapiere/ETFs sind mit Risiken verbunden, einschließlich des möglichen Verlusts des
+      eingesetzten Kapitals. Frühere Wertentwicklungen sind kein verlässlicher Indikator für die Zukunft.
+      Beispielrechnungen sind unverbindlich. Eine individuelle Beratung erfolgt ausschließlich im persönlichen Gespräch.
+    </div>
+    <div class="foot-links" style="margin-top:16px">
+      <a href="#impressum" id="impressum">Impressum</a>
+      <a href="#datenschutz" id="datenschutz">Datenschutz</a>
+      <a href="#buchung">Termin buchen</a>
+    </div>
+    <div>© <span id="year"></span> FNF Finanzen · Platzhalter für Impressum & Datenschutz – bitte vor Live-Gang ausfüllen.</div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---------- Sparrechner (Zinseszins, monatlich) ---------- */
+  const rate=document.getElementById('rate'), age=document.getElementById('age'), ret=document.getElementById('ret');
+  const vRate=document.getElementById('vRate'), vAge=document.getElementById('vAge'), vRet=document.getElementById('vRet');
+  const out=document.getElementById('out'), paid=document.getElementById('paid');
+  const eur = n => Math.round(n).toLocaleString('de-DE') + ' €';
+  function calc(){
+    const m=+rate.value, years=18-(+age.value), r=(+ret.value)/100/12, n=Math.max(0,years*12);
+    // Zukunftswert einer monatlich vorschüssigen Rente
+    const fv = r===0 ? m*n : m*((Math.pow(1+r,n)-1)/r)*(1+r);
+    vRate.textContent=m+' €'; vAge.textContent=(+age.value)+' Jahre'; vRet.textContent=(+ret.value)+' %';
+    out.textContent=eur(fv); paid.textContent=eur(m*n);
+  }
+  [rate,age,ret].forEach(el=>el.addEventListener('input',calc)); calc();
+
+  /* ---------- Qualifizierungs-Quiz ---------- */
+  const answers={}; let step=1; const total=5;
+  const bar=document.getElementById('bar'), label=document.getElementById('stepLabel'), back=document.getElementById('back');
+  function show(s){
+    document.querySelectorAll('.q-step').forEach(el=>el.classList.toggle('active', +el.dataset.step===s));
+    bar.style.width=(s/total*100)+'%'; label.textContent='Frage '+s+' von '+total;
+    back.style.visibility = s>1 ? 'visible':'hidden'; step=s;
+  }
+  document.querySelectorAll('.opt').forEach(btn=>btn.addEventListener('click',()=>{
+    const q=btn.dataset.q;
+    btn.parentElement.querySelectorAll('.opt').forEach(b=>b.classList.remove('sel'));
+    btn.classList.add('sel'); answers[q]=btn.dataset.v;
+    setTimeout(()=>{ if(step<total) show(step+1); }, 180);
+  }));
+  back.addEventListener('click',()=>{ if(step>1) show(step-1); });
+
+  /* ---------- Lead-Capture (Double-Opt-in) ---------- */
+  document.getElementById('submitLead').addEventListener('click', async ()=>{
+    const email=document.getElementById('email').value.trim();
+    const name=document.getElementById('lname').value.trim();
+    const consent=document.getElementById('consent').checked;
+    const msg=document.getElementById('leadMsg');
+    if(!name){ msg.textContent='Bitte Vornamen eingeben.'; return; }
+    if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)){ msg.textContent='Bitte gültige E-Mail eingeben.'; return; }
+    if(!consent){ msg.textContent='Bitte der Datenschutzerklärung zustimmen.'; return; }
+    msg.textContent='Senden…';
+    const payload={ name, email, answers, source:'funnel-quiz', ts:Date.now() };
+    try{
+      const res=await fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+      if(!res.ok) throw new Error('http');
+      msg.innerHTML='✅ Fast geschafft! Wir haben dir eine <b>Bestätigungs-E-Mail</b> geschickt. Bitte den Link darin klicken – danach siehst du sofort freie Termine.';
+    }catch(e){
+      // Fallback ohne Backend: direkt zur Buchung führen
+      msg.innerHTML='✅ Danke, '+name+'! Wähle unten direkt deinen Termin.';
+      localStorage.setItem('fnf_lead', JSON.stringify(payload));
+    }
+    setTimeout(()=>document.getElementById('buchung').scrollIntoView({behavior:'smooth'}), 1400);
+  });
+
+  /* ---------- cal.com Inline-Embed ----------
+     Ersetze CALCOM_LINK (z.B. "fnf-finanzen/erstgespraech-etf-kind") in .env / hier. */
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", "erstgespraech", {origin:"https://app.cal.com"});
+  Cal.ns.erstgespraech("inline", {
+    elementOrSelector:"#my-cal-inline",
+    config: {layout:"month_view"},
+    calLink: window.CALCOM_LINK || "fnf-finanzen/erstgespraech-etf-kind"
+  });
+  Cal.ns.erstgespraech("ui", {hideEventTypeDetails:false, layout:"month_view"});
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>E-Mail bestätigt – jetzt Termin wählen</title>
+<style>
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;background:#0e1726;color:#eaf1ff;
+    display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px}
+  .box{max-width:720px;width:100%;text-align:center;background:#15233f;border:1px solid #24365c;
+    border-radius:18px;padding:40px}
+  h1{font-size:30px;margin:0 0 10px}
+  p{color:#9fb2d6;font-size:17px}
+  .check{font-size:54px}
+  #cal{margin-top:24px;min-height:600px}
+  .err{color:#ff6b6b}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="check">✅</div>
+    <h1 id="title">E-Mail bestätigt!</h1>
+    <p id="msg">Danke – deine Anmeldung ist jetzt bestätigt (Double-Opt-in). Wähle unten direkt deinen 60-Minuten-Termin für das kostenlose Erstgespräch.</p>
+    <div id="cal"><div id="my-cal-inline" style="min-height:600px;width:100%"></div></div>
+  </div>
+<script>
+  // Falls Bestätigung fehlschlug, zeigt das Backend ?status=error
+  const params=new URLSearchParams(location.search);
+  if(params.get('status')==='error'){
+    document.getElementById('title').textContent='Link ungültig oder abgelaufen';
+    document.getElementById('title').className='err';
+    document.getElementById('msg').textContent='Bitte fordere über das Formular eine neue Bestätigungs-E-Mail an.';
+  }
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init", "erstgespraech", {origin:"https://app.cal.com"});
+  Cal.ns.erstgespraech("inline", {elementOrSelector:"#my-cal-inline", config:{layout:"month_view"},
+    calLink: window.CALCOM_LINK || "fnf-finanzen/erstgespraech-etf-kind"});
+</script>
+</body>
+</html>

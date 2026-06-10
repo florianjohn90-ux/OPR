@@ -1,0 +1,9 @@
+# Secrets & Laufzeitdaten – niemals committen
+.env
+node_modules/
+data/
+content/batch-*.json
+content/batch-*.md
+content/topics.json
+content/calendar.json
+content/to-post.md

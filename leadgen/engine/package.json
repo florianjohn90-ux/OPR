@@ -1,0 +1,18 @@
+{
+  "name": "fnf-leadgen-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Organische Content-Engine: Research -> Generierung -> Kalender -> Meta-Publishing",
+  "scripts": {
+    "research": "node research.mjs",
+    "generate": "node generate.mjs --count 30",
+    "calendar": "node calendar.mjs",
+    "publish": "node publish-meta.mjs",
+    "publish:review": "node publish-meta.mjs --review",
+    "run:all": "node research.mjs && node generate.mjs --count 30 && node calendar.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14"
+  }
+}
