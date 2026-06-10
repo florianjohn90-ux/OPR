@@ -262,6 +262,27 @@ export function renderCard({ W = 1080, H = 1350, text, badge = '', footer = true
   return `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">${body}</svg>`;
 }
 
+// Foto-Overlay (transparent) — legt Marken-Typo ueber ein Higgsfield-Foto:
+// abdunkelnder Verlauf unten, Brand oben, Hook als Lower-Third, CTA + Disclaimer.
+export function photoOverlay({ W = 1080, H = 1350, text, brand, footer = true }) {
+  const p = brand.palette;
+  const lines = wrap(text, 24);
+  const fs = lines.length > 3 ? 52 : 62, lh = fs * 1.22;
+  const blockH = lines.length * lh + (footer ? 260 : 120);
+  const sy = H - blockH + fs;
+  return `<svg width="${W}" height="${H}" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="d" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.82"/></linearGradient></defs>
+  <rect x="0" y="${H - blockH - 220}" width="${W}" height="${blockH + 220}" fill="url(#d)"/>
+  <rect x="0" y="0" width="${W}" height="150" fill="#000" opacity="0.28"/>
+  <text x="60" y="92" font-family="${brand.fontHead}" font-size="34" font-weight="700" fill="#ffffff">${esc(brand.emoji)} ${esc(brand.name)}</text>
+  <rect x="60" y="${sy - fs - 26}" width="90" height="8" rx="4" fill="${p.accent}"/>
+  <text font-family="${brand.fontHead}" font-size="${fs}" font-weight="800" fill="#ffffff">${lines2tspans(lines, 60, sy, lh)}</text>
+  ${footer ? `<text x="60" y="${H - 120}" font-family="${brand.fontBody}" font-size="29" font-weight="700" fill="${p.accent}">${esc(brand.cta)}</text>
+  <text x="60" y="${H - 70}" font-family="${brand.fontBody}" font-size="16" fill="#cccccc">Keine Anlageberatung · Kapitalanlagen bergen Risiken bis hin zum Kapitalverlust</text>` : ''}
+</svg>`;
+}
+
 // Video-Szenen-Card (9:16) — nutzt Markenfarben/-fonts, vereinfachtes Layout.
 export function renderScene({ W = 1080, H = 1920, text, idx, total, brand }) {
   const p = brand.palette;

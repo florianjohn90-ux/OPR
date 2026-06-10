@@ -87,6 +87,9 @@ jobs:
         run: |
           node render-image.mjs
           node render-video.mjs
+      - name: Higgsfield-Briefs aktualisieren (Prompts fuer alle geplanten Posts)
+        working-directory: leadgen/engine
+        run: node media-briefs.mjs
       - name: Commit new content
         run: |
           git config user.name "social-autopilot"

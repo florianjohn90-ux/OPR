@@ -1,0 +1,156 @@
+# Higgsfield-Brief: Mama & Moneten (@mama.und.moneten)
+
+Bildwelt: Mütter, mentale Last & Familienfinanzen — sanft, entlastend, Schritt für Schritt
+Details: config/visual-direction.md
+
+## p01 — Warten kostet Zinseszins  _(image, schmerz)_
+**Hook:** Jedes Jahr Warten kostet dein Kind richtig Geld.
+**Datei ablegen als:** `content/brands/mamamoney/media/p01.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p02 — Sparbuch verliert gegen Inflation  _(image, schmerz)_
+**Hook:** Das Sparbuch fürs Kind verliert jedes Jahr Wert.
+**Datei ablegen als:** `content/brands/mamamoney/media/p02.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p03 — 25 Euro reichen zum Start  _(image, aha)_
+**Hook:** Du brauchst keine 500 €. 25 € im Monat reichen zum Start.
+**Datei ablegen als:** `content/brands/mamamoney/media/p03.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p04 — 3 Fehler beim Sparen fürs Kind  _(image, aha)_
+**Hook:** 3 Fehler, die Eltern beim Sparen fürs Kind machen.
+**Datei ablegen als:** `content/brands/mamamoney/media/p04.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p05 — Was passiert mit 18 mit dem Geld?  _(image, frage)_
+**Hook:** Was passiert mit dem Geld, wenn dein Kind 18 wird?
+**Datei ablegen als:** `content/brands/mamamoney/media/p05.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p06 — Sparbuch vs. Tagesgeld vs. ETF  _(image, vergleich)_
+**Hook:** Sparbuch vs. Tagesgeld vs. ETF – was fürs Kind?
+**Datei ablegen als:** `content/brands/mamamoney/media/p06.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, two jars side by side, one nearly empty one growing with coins and a small plant sprouting from it, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p07 — Omas Geldgeschenke bündeln  _(image, story)_
+**Hook:** Oma steckt dem Kind wieder 20 € zu. Mach mehr draus.
+**Datei ablegen als:** `content/brands/mamamoney/media/p07.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p08 — ETFs sind mir zu riskant  _(image, einwand)_
+**Hook:** „ETFs sind mir zu riskant.“ Reden wir ehrlich darüber.
+**Datei ablegen als:** `content/brands/mamamoney/media/p08.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p09 — Checkliste: Sparplan starten  _(image, how-to)_
+**Hook:** Checkliste: So startest du den Sparplan fürs Kind.
+**Datei ablegen als:** `content/brands/mamamoney/media/p09.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, hands following clear steps: writing a checklist, setting up banking app on phone, organized desk, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p10 — Der 18. Geburtstag  _(image, emotion)_
+**Hook:** Stell dir den 18. Geburtstag deines Kindes vor.
+**Datei ablegen als:** `content/brands/mamamoney/media/p10.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, emotional milestone moment, tears of joy or proud embrace, golden light, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p11 — Depot auf Kind oder Eltern?  _(image, frage)_
+**Hook:** Sparplan auf das Kind oder auf euch? Das ist die Frage.
+**Datei ablegen als:** `content/brands/mamamoney/media/p11.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p12 — Aktien sind Glücksspiel  _(image, mythos)_
+**Hook:** Mythos: „Aktien sind Glücksspiel.“ Die Fakten für Eltern.
+**Datei ablegen als:** `content/brands/mamamoney/media/p12.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, contrast scene: scattered casino chips versus a young plant growing out of a jar of coins, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p13 — Startzeitpunkt schlägt Sparrate  _(image, aha)_
+**Hook:** Früh + wenig schlägt spät + viel. Fast immer.
+**Datei ablegen als:** `content/brands/mamamoney/media/p13.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p14 — Der erste Schritt nach der Geburt  _(image, story)_
+**Hook:** Frisch Eltern geworden? Dieser Geld-Schritt lohnt sich jetzt.
+**Datei ablegen als:** `content/brands/mamamoney/media/p14.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```

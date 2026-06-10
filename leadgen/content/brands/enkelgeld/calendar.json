@@ -23,7 +23,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p01-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p01-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p02-instagram",
@@ -49,7 +50,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p02-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p02-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p01-facebook",
@@ -75,7 +77,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p01-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p01-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p02-facebook",
@@ -101,7 +104,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p02-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p02-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p03-instagram",
@@ -127,7 +131,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p03-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p03-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p04-instagram",
@@ -153,7 +158,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p04-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p04-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p03-facebook",
@@ -179,7 +185,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p03-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p03-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p04-facebook",
@@ -205,7 +212,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p04-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p04-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p05-instagram",
@@ -231,7 +239,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p05-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p05-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p06-instagram",
@@ -257,7 +266,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p06-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p06-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p05-facebook",
@@ -283,7 +293,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p05-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p05-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p06-facebook",
@@ -309,7 +320,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p06-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p06-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p07-instagram",
@@ -335,7 +347,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p07-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p07-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p08-instagram",
@@ -361,7 +374,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p08-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p08-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p07-facebook",
@@ -387,7 +401,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p07-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p07-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p08-facebook",
@@ -413,7 +428,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p08-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p08-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p09-instagram",
@@ -439,7 +455,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p09-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p09-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p10-instagram",
@@ -465,7 +482,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p10-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p10-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p09-facebook",
@@ -491,7 +509,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p09-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p09-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p10-facebook",
@@ -517,7 +536,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p10-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p10-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p11-instagram",
@@ -543,7 +563,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p11-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p11-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p12-instagram",
@@ -569,7 +590,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p12-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p12-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p11-facebook",
@@ -595,7 +617,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p11-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p11-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p12-facebook",
@@ -621,7 +644,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p12-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p12-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p13-instagram",
@@ -647,7 +671,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p13-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p13-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p14-instagram",
@@ -673,7 +698,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p14-instagram.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p14-instagram.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p13-facebook",
@@ -699,7 +725,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p13-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p13-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p14-facebook",
@@ -725,7 +752,8 @@
     ],
     "rewritten": false,
     "status": "scheduled",
-    "assetPath": "content/brands/enkelgeld/assets/p14-facebook.jpg"
+    "assetPath": "content/brands/enkelgeld/assets/p14-facebook.jpg",
+    "usedMedia": false
   },
   {
     "id": "enkelgeld-p15-instagram",

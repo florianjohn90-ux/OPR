@@ -5,8 +5,9 @@ import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import sharp from 'sharp';
-import { renderScene } from './lib/templates.mjs';
+import { renderScene, photoOverlay } from './lib/templates.mjs';
 import { loadBrands, brandDir } from './lib/brands.mjs';
+import { access } from 'node:fs/promises';
 
 const exec = promisify(execFile);
 const RENDER_DAYS = Number(process.env.RENDER_DAYS || 7);
@@ -54,6 +55,25 @@ for (let bi = 0; bi < brands.length; bi++) {
     const voPath = new URL('vo.mp3', tmpDir).pathname;
     const voDur = post.script.voiceover ? await tts(post.script.voiceover, voice, voPath) : null;
     const scale = voDur ? voDur / planned : 1;
+
+    // Premium-Pfad: Higgsfield-B-Roll (media/<bankId>.mp4) + Voiceover + Marken-Overlay.
+    let broll = null;
+    try { broll = new URL(`media/${post.bankId}.mp4`, dir).pathname; await access(broll); } catch { broll = null; }
+    if (broll && voDur) {
+      const overlayPng = new URL('overlay.png', tmpDir).pathname;
+      await sharp(Buffer.from(photoOverlay({ W: 1080, H: 1920, text: post.hook, brand, footer: true })))
+        .png().toFile(overlayPng);
+      const outFile = `${post.bankId || post.id}-${post.platform}.mp4`;
+      await exec('ffmpeg', ['-y', '-stream_loop', '-1', '-i', broll, '-i', overlayPng, '-i', voPath,
+        '-filter_complex', '[0:v]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920[bg];[bg][1:v]overlay=0:0[v]',
+        '-map', '[v]', '-map', '2:a', '-t', String(voDur.toFixed(2)),
+        '-r', '30', '-c:v', 'libx264', '-preset', 'medium', '-crf', '21', '-c:a', 'aac', '-b:a', '128k',
+        new URL('assets/' + outFile, dir).pathname], { timeout: 600000 });
+      post.assetPath = `content/brands/${brand.id}/assets/${outFile}`;
+      post.hasVoiceover = true; post.usedMedia = true;
+      total++;
+      continue;
+    }
 
     let concat = '';
     for (let i = 0; i < scenes.length; i++) {

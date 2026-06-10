@@ -1,0 +1,114 @@
+[
+  {
+    "bankId": "p01",
+    "format": "image",
+    "topic": "Warten kostet Zinseszins",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p01.jpg"
+  },
+  {
+    "bankId": "p02",
+    "format": "image",
+    "topic": "Sparbuch verliert gegen Inflation",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p02.jpg"
+  },
+  {
+    "bankId": "p03",
+    "format": "image",
+    "topic": "25 Euro reichen zum Start",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p03.jpg"
+  },
+  {
+    "bankId": "p04",
+    "format": "image",
+    "topic": "3 Fehler beim Sparen fürs Kind",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p04.jpg"
+  },
+  {
+    "bankId": "p05",
+    "format": "image",
+    "topic": "Was passiert mit 18 mit dem Geld?",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p05.jpg"
+  },
+  {
+    "bankId": "p06",
+    "format": "image",
+    "topic": "Sparbuch vs. Tagesgeld vs. ETF",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, two jars side by side, one nearly empty one growing with coins and a small plant sprouting from it, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p06.jpg"
+  },
+  {
+    "bankId": "p07",
+    "format": "image",
+    "topic": "Omas Geldgeschenke bündeln",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p07.jpg"
+  },
+  {
+    "bankId": "p08",
+    "format": "image",
+    "topic": "ETFs sind mir zu riskant",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p08.jpg"
+  },
+  {
+    "bankId": "p09",
+    "format": "image",
+    "topic": "Checkliste: Sparplan starten",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, hands following clear steps: writing a checklist, setting up banking app on phone, organized desk, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p09.jpg"
+  },
+  {
+    "bankId": "p10",
+    "format": "image",
+    "topic": "Der 18. Geburtstag",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, emotional milestone moment, tears of joy or proud embrace, golden light, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p10.jpg"
+  },
+  {
+    "bankId": "p11",
+    "format": "image",
+    "topic": "Depot auf Kind oder Eltern?",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p11.jpg"
+  },
+  {
+    "bankId": "p12",
+    "format": "image",
+    "topic": "Aktien sind Glücksspiel",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, contrast scene: scattered casino chips versus a young plant growing out of a jar of coins, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p12.jpg"
+  },
+  {
+    "bankId": "p13",
+    "format": "image",
+    "topic": "Startzeitpunkt schlägt Sparrate",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p13.jpg"
+  },
+  {
+    "bankId": "p14",
+    "format": "image",
+    "topic": "Der erste Schritt nach der Geburt",
+    "imagePrompt": "cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/fnf/media/p14.jpg"
+  }
+]

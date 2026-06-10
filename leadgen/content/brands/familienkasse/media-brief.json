@@ -1,0 +1,114 @@
+[
+  {
+    "bankId": "p01",
+    "format": "image",
+    "topic": "Warten kostet Zinseszins",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p01.jpg"
+  },
+  {
+    "bankId": "p02",
+    "format": "image",
+    "topic": "Sparbuch verliert gegen Inflation",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p02.jpg"
+  },
+  {
+    "bankId": "p03",
+    "format": "image",
+    "topic": "25 Euro reichen zum Start",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p03.jpg"
+  },
+  {
+    "bankId": "p04",
+    "format": "image",
+    "topic": "3 Fehler beim Sparen fürs Kind",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p04.jpg"
+  },
+  {
+    "bankId": "p05",
+    "format": "image",
+    "topic": "Was passiert mit 18 mit dem Geld?",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p05.jpg"
+  },
+  {
+    "bankId": "p06",
+    "format": "image",
+    "topic": "Sparbuch vs. Tagesgeld vs. ETF",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, two jars side by side, one nearly empty one growing with coins and a small plant sprouting from it, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p06.jpg"
+  },
+  {
+    "bankId": "p07",
+    "format": "image",
+    "topic": "Omas Geldgeschenke bündeln",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p07.jpg"
+  },
+  {
+    "bankId": "p08",
+    "format": "image",
+    "topic": "ETFs sind mir zu riskant",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p08.jpg"
+  },
+  {
+    "bankId": "p09",
+    "format": "image",
+    "topic": "Checkliste: Sparplan starten",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, hands following clear steps: writing a checklist, setting up banking app on phone, organized desk, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p09.jpg"
+  },
+  {
+    "bankId": "p10",
+    "format": "image",
+    "topic": "Der 18. Geburtstag",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, emotional milestone moment, tears of joy or proud embrace, golden light, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p10.jpg"
+  },
+  {
+    "bankId": "p11",
+    "format": "image",
+    "topic": "Depot auf Kind oder Eltern?",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p11.jpg"
+  },
+  {
+    "bankId": "p12",
+    "format": "image",
+    "topic": "Aktien sind Glücksspiel",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, contrast scene: scattered casino chips versus a young plant growing out of a jar of coins, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p12.jpg"
+  },
+  {
+    "bankId": "p13",
+    "format": "image",
+    "topic": "Startzeitpunkt schlägt Sparrate",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p13.jpg"
+  },
+  {
+    "bankId": "p14",
+    "format": "image",
+    "topic": "Der erste Schritt nach der Geburt",
+    "imagePrompt": "documentary reportage photo, German family at kitchen table, available window light, photojournalism grain, slightly desaturated, shot through doorframe, authentic apartment, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/familienkasse/media/p14.jpg"
+  }
+]
