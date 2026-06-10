@@ -1,19 +1,21 @@
 # Social-Media-Autopilot fuer leadgen/ — laeuft ohne menschliches Zutun.
 #
-# Job "publish":   alle 30 Min (07–20 UTC) — postet faellige Posts auf FB (+ IG,
-#                  wenn PUBLIC_ASSET_BASE gesetzt) und committet den Status zurueck.
-# Job "replenish": taeglich 03:00 UTC — generiert neuen Content, wenn der Vorrat
-#                  unter 1 Woche faellt, plant ihn ein und rendert die Bilder.
+# publish+engage : alle 30 Min (07–20 UTC) — postet faellige Posts (Image/Carousel/
+#                  Reel auf FB + IG) und beantwortet Kommentare & Seiten-Nachrichten.
+# replenish      : taeglich 03:00 UTC — generiert Content nach (Reels/Carousels/Images,
+#                  Conversion/Trust/Engagement-Mix), plant ein, rendert Bilder & Videos.
+# research       : montags 04:00 UTC — Wettbewerber-Analyse via Meta Ad Library,
+#                  speist die Content-Generierung mit funktionierenden Mustern.
 #
-# Benoetigte Repo-Secrets (Settings -> Secrets and variables -> Actions):
-#   META_PAGE_ID, META_PAGE_TOKEN, META_IG_USER_ID, ANTHROPIC_API_KEY
-# Optionale Repo-Variable: PUBLIC_ASSET_BASE (oeffentliche Basis-URL der Bilder)
+# Benoetigte Repo-Secrets: META_PAGE_ID, META_PAGE_TOKEN, META_IG_USER_ID, ANTHROPIC_API_KEY
+# Optionale Repo-Variable: PUBLIC_ASSET_BASE (oeffentliche Basis-URL der Assets, fuer IG)
 name: Social Autopilot
 
 on:
   schedule:
     - cron: '*/30 7-20 * * *'
     - cron: '0 3 * * *'
+    - cron: '0 4 * * 1'
   workflow_dispatch: {}
 
 permissions:
@@ -24,8 +26,8 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  publish:
-    if: github.event.schedule != '0 3 * * *'
+  publish-and-engage:
+    if: github.event.schedule == '*/30 7-20 * * *' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -39,12 +41,20 @@ jobs:
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           PUBLIC_ASSET_BASE: ${{ vars.PUBLIC_ASSET_BASE }}
         run: node publish-meta.mjs
+      - name: Engage (Kommentare & Nachrichten beantworten)
+        working-directory: leadgen/engine
+        env:
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node engage.mjs
       - name: Commit status
         run: |
           git config user.name "social-autopilot"
           git config user.email "actions@github.com"
-          git add leadgen/content/calendar.json
-          git diff --cached --quiet || git commit -m "autopilot: publish status update"
+          git add leadgen/content/calendar.json leadgen/content/engage-state.json
+          git diff --cached --quiet || git commit -m "autopilot: publish + engage status"
           git push
 
   replenish:
@@ -54,23 +64,48 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - name: Install deps
+      - name: Install deps (node, ffmpeg, edge-tts)
         working-directory: leadgen/engine
-        run: npm install --no-audit --no-fund
+        run: |
+          npm install --no-audit --no-fund
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip3 install --quiet edge-tts
       - name: Replenish content bank
         working-directory: leadgen/engine
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node replenish.mjs
-      - name: Schedule + render images
+      - name: Schedule + render images & videos
         working-directory: leadgen/engine
         run: |
           node calendar.mjs
           node render-image.mjs
+          node render-video.mjs
       - name: Commit new content
         run: |
           git config user.name "social-autopilot"
           git config user.email "actions@github.com"
           git add leadgen/content/
-          git diff --cached --quiet || git commit -m "autopilot: replenish content bank + schedule + assets"
+          git diff --cached --quiet || git commit -m "autopilot: replenish content + assets"
+          git push
+
+  research:
+    if: github.event.schedule == '0 4 * * 1'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Competitor research (Meta Ad Library)
+        working-directory: leadgen/engine
+        env:
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node competitor-research.mjs
+      - name: Commit insights
+        run: |
+          git config user.name "social-autopilot"
+          git config user.email "actions@github.com"
+          git add leadgen/content/competitor-insights.json
+          git diff --cached --quiet || git commit -m "autopilot: weekly competitor insights"
           git push

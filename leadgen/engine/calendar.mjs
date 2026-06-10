@@ -37,10 +37,13 @@ for (const { id, platform, piece } of fresh) {
   plan.push({
     id, scheduledFor: `${iso}T${time}:00Z`, platform,
     format: piece.format || 'image',
+    goal: piece.goal || 'conversion',
     topic: piece.topic, angle: piece.angle,
     hook: piece.hooks[0],
     caption: piece.caption,
     hashtags: piece.hashtags,
+    ...(piece.slides ? { slides: piece.slides } : {}),
+    ...(piece.script ? { script: piece.script } : {}),
     status: 'scheduled'
   });
   slotIdx++;

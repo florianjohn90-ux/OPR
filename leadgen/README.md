@@ -49,10 +49,31 @@ Der komplette Betrieb läuft über **GitHub Actions** (`.github/workflows/social
   Claude automatisch 12 neue Posts (`replenish.mjs`), plant sie ein (`calendar.mjs`)
   und rendert die Bilder (`render-image.mjs`). Nachschub ist also unendlich.
 
-**Bereits fertig im Repo:** 24 handgeschriebene Posts (`content/bank.json`),
-48 eingeplante Slots über ~12 Tage (`content/calendar.json`) und 48 fertig
-gerenderte Post-Grafiken (`content/assets/*.jpg`) — Branding, Hook, CTA,
-Pflichthinweis, alles drauf.
+**Bereits fertig im Repo:** 36 handgeschriebene Posts (`content/bank.json`) in
+3 Formaten — Images, **Carousels** (mehrteilige Slides) und **Reels** (komplette
+Skripte mit Szenen + Voiceover-Text) — 72 eingeplante Slots und 80 gerenderte
+Grafiken. Reel-Videos produziert der CI-Lauf automatisch (Szenen-Cards + deutsche
+Neural-Voiceover via edge-tts + ffmpeg-Montage zu 1080×1920 MP4).
+
+### Weitere Autopilot-Module
+
+- **`engage.mjs`** (läuft alle 30 Min): beantwortet **Kommentare auf FB & IG und
+  Seiten-Nachrichten** automatisch in Florians Stimme (`config/persona.md`) —
+  warm, kurz, ehrlich. Harte Compliance-Leitplanken: nie individuelle Anlage-/
+  Steuerberatung, keine Renditeversprechen. Heikle Fälle (Beschwerden, Recht,
+  Notlagen) werden NICHT automatisch beantwortet, sondern in
+  `data/escalations.ndjson` zur persönlichen Antwort eskaliert.
+- **`competitor-research.mjs`** (montags): durchsucht die **Meta Ad Library** nach
+  aktiven deutschen Ads zu Kindersparplänen, rankt sie nach Laufzeit (was lange
+  läuft, funktioniert) und extrahiert Hooks/Winkel/Lücken als Inspiration —
+  fließt automatisch in die Content-Generierung ein. Muster werden gelernt,
+  nie kopiert.
+- **Content-Säulen-Mix** im Nachschub: ~50 % Conversion (CTA Erstgespräch),
+  ~33 % **Trust** (persönliche Einblicke, hinter den Kulissen — baut Nähe auf),
+  ~17 % **Engagement** (Community-Fragen mit A/B/C/D-Antworten — der API-konforme
+  Ersatz für Story-Umfragen, die Meta per API nicht anbietet; ab echter Reichweite
+  postest du Umfrage-Sticker manuell in Stories oder wir rüsten nach, sobald die
+  API es kann).
 
 ### Der EINZIGE einmalige Handgriff (≈10 Minuten, danach 0 Arbeit)
 

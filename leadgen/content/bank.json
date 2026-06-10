@@ -1,98 +1,972 @@
 [
-  {"id":"p01","angle":"schmerz","topic":"Warten kostet Zinseszins","format":"image",
-   "hooks":["Jedes Jahr Warten kostet dein Kind richtig Geld.","Der teuerste Fehler beim Sparen fürs Kind: warten."],
-   "caption":"Wenn dein Kind heute 2 ist und du erst mit 10 anfängst, verschenkst du 8 Jahre Zinseszins – und genau die frühen Jahre wirken am stärksten. 📈\n\nDer beste Tag zum Starten war die Geburt. Der zweitbeste ist heute.\n\nDu willst wissen, was für euch realistisch ist? Kostenloses Erstgespräch – Link in Bio. 👆",
-   "hashtags":["#sparenfürskind","#etfsparplan","#jungeeltern","#zinseszins","#kinderfinanzen","#vermögensaufbau","#finanztipps","#familienfinanzen"]},
-  {"id":"p02","angle":"schmerz","topic":"Sparbuch verliert gegen Inflation","format":"image",
-   "hooks":["Das Sparbuch fürs Kind verliert jedes Jahr Wert.","Dein Kind spart – die Inflation kassiert."],
-   "caption":"Inflation 2–3 %, Sparbuchzins fast null: Die Lücke zahlt am Ende dein Kind. 🐢\n\n100 € heute haben in 18 Jahren spürbar weniger Kaufkraft. Geld muss arbeiten, nicht schlafen – mit einem Plan, der zu eurer Familie passt.\n\nLass uns euer Setup anschauen, kostenlos & unverbindlich. Link in Bio.",
-   "hashtags":["#sparbuch","#inflation","#etfsparplan","#kindervorsorge","#jungeeltern","#finanzbildung","#sparenfürskind","#geldanlegen"]},
-  {"id":"p03","angle":"aha","topic":"25 Euro reichen zum Start","format":"image",
-   "hooks":["Du brauchst keine 500 €. 25 € im Monat reichen zum Start.","25 € im Monat. Mehr braucht der Anfang nicht."],
-   "caption":"„Ich hab doch kaum was übrig“ – der häufigste Satz. Und der häufigste Denkfehler. 💡\n\nBeim Sparen fürs Kind zählt nicht die Höhe, sondern der frühe Start. 25 € sind ein Anfang, den du jederzeit erhöhen kannst.\n\nWas wäre dein Startbetrag? Schreib's in die Kommentare 👇 Kostenloses Erstgespräch: Link in Bio.",
-   "hashtags":["#kleinanfangen","#sparplan","#etffürkinder","#jungeeltern","#sparenfürskind","#finanzenfürmütter","#finanzenfürväter","#kinderzukunft"]},
-  {"id":"p04","angle":"aha","topic":"3 Fehler beim Sparen fürs Kind","format":"image",
-   "hooks":["3 Fehler, die Eltern beim Sparen fürs Kind machen.","Diese 3 Fehler kosten dein Kind bares Geld."],
-   "caption":"Fehler 1: Zu spät anfangen – Zeit ist der größte Hebel.\nFehler 2: Alles aufs Sparbuch – die Inflation gewinnt.\nFehler 3: Aus Angst vor Risiko gar nichts tun. 📌\n\nNiemand macht das mit Absicht falsch. Meist fehlt nur jemand, der es ruhig erklärt – genau dafür gibt es das kostenlose Erstgespräch. Link in Bio.",
-   "hashtags":["#elterntipps","#finanzfehler","#sparenfürskind","#etfsparplan","#kinderfinanzen","#jungeeltern","#vorsorge","#geldtipps"]},
-  {"id":"p05","angle":"frage","topic":"Was passiert mit 18 mit dem Geld?","format":"image",
-   "hooks":["Was passiert mit dem Geld, wenn dein Kind 18 wird?","Mit 18 gehört das Geld deinem Kind. Oder?"],
-   "caption":"Eine der häufigsten Elternfragen – und die Antwort hängt davon ab, wie der Sparplan aufgesetzt ist. 🎁\n\nLäuft er auf das Kind oder auf euch? Das entscheidet über Zugriff, Steuern und Flexibilität. Genau das sollte man am Anfang bewusst wählen, nicht kurz vor dem 18. Geburtstag.\n\nFragen dazu? Kostenloses Gespräch – Link in Bio.",
-   "hashtags":["#sparenfürskind","#18geburtstag","#etfsparplan","#jungeeltern","#finanzplanung","#vorsorgefürskind","#elternwissen","#familienfinanzen"]},
-  {"id":"p06","angle":"vergleich","topic":"Sparbuch vs. Tagesgeld vs. ETF","format":"image",
-   "hooks":["Sparbuch vs. Tagesgeld vs. ETF – was fürs Kind?","Wohin mit dem Geld fürs Kind? Der ehrliche Vergleich."],
-   "caption":"Sparbuch: sehr sicher, kaum Zinsen, Inflation frisst mit.\nTagesgeld: flexibel, etwas mehr Zins, langfristig begrenzt.\nETF-Sparplan: Chance auf Wachstum über lange Zeiträume – mit Schwankungen. ⚖️\n\nFaustregel: kurzfristig Sicherheit, langfristig Wachstum. Und 18 Jahre sind lang. Welcher Mix zu euch passt, klären wir im kostenlosen Gespräch – Link in Bio.",
-   "hashtags":["#tagesgeld","#sparbuch","#etfsparplan","#geldanlegen","#kindersparen","#jungeeltern","#finanzvergleich","#vermögensaufbau"]},
-  {"id":"p07","angle":"story","topic":"Omas Geldgeschenke bündeln","format":"image",
-   "hooks":["Oma steckt dem Kind wieder 20 € zu. Mach mehr draus.","Geldgeschenke verpuffen. Außer du machst das hier."],
-   "caption":"Geburtstag, Weihnachten, Taufe – über die Jahre kommt richtig was zusammen. 🎈\n\nStatt im Portemonnaie zu verschwinden, können Geldgeschenke in den Sparplan fließen und für die Zukunft deines Kindes arbeiten.\n\nWie man das clever bündelt, zeige ich dir im kostenlosen Gespräch. Link in Bio.",
-   "hashtags":["#geldgeschenk","#omaundopa","#sparenfürskind","#etfsparplan","#familienfinanzen","#jungeeltern","#kinderzukunft","#geschenkidee"]},
-  {"id":"p08","angle":"einwand","topic":"ETFs sind mir zu riskant","format":"image",
-   "hooks":["„ETFs sind mir zu riskant.“ Reden wir ehrlich darüber.","Risiko ist real. Glücksspiel ist es trotzdem nicht."],
-   "caption":"Risiko ist real – wer etwas anderes behauptet, lügt. 🙅\n\nAber Risiko heißt nicht Glücksspiel: Breit gestreut und über lange Zeiträume sieht das Bild ganz anders aus als bei „heute rein, morgen raus“. Wichtig: Frühere Entwicklungen sind keine Garantie für die Zukunft.\n\nLass uns deine Risikobereitschaft ehrlich anschauen – kostenlos. Link in Bio.",
-   "hashtags":["#etfrisiko","#geldanlage","#finanzbildung","#sparenfürskind","#jungeeltern","#langfristigdenken","#ehrlichefinanzen","#börsefüranfänger"]},
-  {"id":"p09","angle":"how-to","topic":"Checkliste: Sparplan starten","format":"image",
-   "hooks":["Checkliste: So startest du den Sparplan fürs Kind.","5 Punkte – dann läuft der Sparplan fast von allein."],
-   "caption":"1. Ziel klären: Ausbildung? Startkapital?\n2. Realistische Rate – lieber klein & dauerhaft.\n3. Auf wen läuft der Plan? (Kind oder Eltern – hat Folgen!)\n4. Breit streuen statt auf eine Karte setzen.\n5. Automatisieren und in Ruhe laufen lassen. 📌\n\nPunkt 3 übersehen die meisten. Unsicher? Kostenloses Gespräch – Link in Bio.",
-   "hashtags":["#checkliste","#sparplan","#etffürkinder","#jungeeltern","#finanzplanung","#kindervorsorge","#elterntipps","#sparenfürskind"]},
-  {"id":"p10","angle":"emotion","topic":"Der 18. Geburtstag","format":"image",
-   "hooks":["Stell dir den 18. Geburtstag deines Kindes vor.","Was schenkst du deinem Kind zum 18.? Rückenwind."],
-   "caption":"Du kannst deinem Kind mit 18 vieles wünschen. Finanziellen Rückenwind kannst du ihm bauen – ab heute, in kleinen Schritten. 🌱\n\nKein Druck, keine Riesenbeträge. Nur ein Plan, der zu eurer Familie passt und still im Hintergrund arbeitet.\n\nLass uns starten: kostenloses Erstgespräch, Link in Bio.",
-   "hashtags":["#fürmeinkind","#zukunftschenken","#sparenfürskind","#etfsparplan","#jungeeltern","#elternliebe","#familienzukunft","#startvorteil"]},
-  {"id":"p11","angle":"frage","topic":"Depot auf Kind oder Eltern?","format":"image",
-   "hooks":["Sparplan auf das Kind oder auf euch? Das ist die Frage.","Kinderdepot oder Elterndepot – was ist klüger?"],
-   "caption":"Beides hat Vor- und Nachteile: Beim Kinderdepot gehört das Geld rechtlich dem Kind (inkl. eigener Steuerfreibeträge), beim Elterndepot behaltet ihr die volle Kontrolle. 🤔\n\nWas besser passt, hängt von euren Zielen ab – und sollte vor dem ersten Euro entschieden sein.\n\nGenau dafür ist das kostenlose Erstgespräch da. Link in Bio.",
-   "hashtags":["#kinderdepot","#etfsparplan","#sparenfürskind","#jungeeltern","#steuerfreibetrag","#finanzwissen","#familienfinanzen","#vorsorge"]},
-  {"id":"p12","angle":"mythos","topic":"Aktien sind Glücksspiel","format":"image",
-   "hooks":["Mythos: „Aktien sind Glücksspiel.“ Die Fakten für Eltern.","Casino oder Vermögensaufbau? Der Unterschied ist Zeit."],
-   "caption":"Beim Glücksspiel verlierst du im Schnitt. Bei breit gestreuten Aktienmärkten war es historisch über lange Zeiträume umgekehrt – ohne Garantie, aber mit System. 🎲❌\n\nDer Unterschied: Streuung + Zeit statt Zocken + Glück. Und Zeit hast du beim Sparen fürs Kind reichlich.\n\nFragen? Kostenloses Gespräch – Link in Bio.",
-   "hashtags":["#finanzmythen","#aktienfüranfänger","#etfsparplan","#sparenfürskind","#finanzbildung","#jungeeltern","#langfristig","#vermögensaufbau"]},
-  {"id":"p13","angle":"aha","topic":"Startzeitpunkt schlägt Sparrate","format":"image",
-   "hooks":["Früh + wenig schlägt spät + viel. Fast immer.","Der Startzeitpunkt ist wichtiger als die Sparrate."],
-   "caption":"Wer ab Geburt klein spart, steht am 18. Geburtstag oft besser da als jemand, der spät mit dem Doppelten startet. ⏰\n\nDer Grund: Zinseszins braucht vor allem eines – Zeit. Genau deshalb ist „später, wenn mehr übrig ist“ so teuer.\n\nStarte klein, starte jetzt. Kostenloses Gespräch: Link in Bio.",
-   "hashtags":["#zinseszins","#früherstarten","#etfsparplan","#sparenfürskind","#jungeeltern","#finanztipps","#kinderzukunft","#vermögensaufbau"]},
-  {"id":"p14","angle":"story","topic":"Der erste Schritt nach der Geburt","format":"image",
-   "hooks":["Frisch Eltern geworden? Dieser Geld-Schritt lohnt sich jetzt.","Windeln, Schlafmangel – und eine Finanzentscheidung."],
-   "caption":"Zwischen Windeln und Schlafmangel denkt niemand an Finanzen – verständlich. ❤️\n\nAber genau jetzt ist der wertvollste Moment: Jeder Monat ab Geburt arbeitet 18 Jahre lang für dein Kind. Ein Sparplan ist in einem Gespräch aufgesetzt und läuft dann automatisch.\n\nKostenlos & unverbindlich: Link in Bio.",
-   "hashtags":["#frischgebackeneeltern","#babyglück","#sparenfürskind","#etfsparplan","#jungeeltern","#elternzeit","#familienfinanzen","#vorsorge"]},
-  {"id":"p15","angle":"frage","topic":"Ab wann lohnt sich ein Sparplan?","format":"image",
-   "hooks":["Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?","Lohnt sich das überhaupt bei kleinem Budget?"],
-   "caption":"Kurze Antwort: ab 25 € im Monat. Lange Antwort: Es lohnt sich, sobald du regelmäßig sparen kannst – egal wie klein. 💶\n\nDenn die Rate kannst du jederzeit anpassen. Die verlorene Zeit holst du nie zurück.\n\nWas bei eurem Budget möglich ist, rechnen wir gemeinsam durch – kostenlos. Link in Bio.",
-   "hashtags":["#sparplan","#kleinesparrate","#etffürkinder","#sparenfürskind","#jungeeltern","#budgettipps","#familienfinanzen","#finanztipps"]},
-  {"id":"p16","angle":"einwand","topic":"Keine Zeit für Finanzkram","format":"image",
-   "hooks":["„Keine Zeit für Finanzkram.“ Brauchst du auch nicht.","Ein Gespräch. Dann läuft es 18 Jahre allein."],
-   "caption":"Die gute Nachricht für alle Eltern ohne Zeit: Ein Sparplan ist kein Hobby. 🕐\n\nEinmal sauber aufgesetzt, läuft er automatisch – Monat für Monat, ohne dass du dich kümmern musst. Das Aufsetzen übernehmen wir gemeinsam in einem einzigen Gespräch.\n\n60 Minuten für 18 Jahre Autopilot: Link in Bio.",
-   "hashtags":["#keinezeit","#elternalltag","#sparenfürskind","#etfsparplan","#automatischsparen","#jungeeltern","#einfachefinanzen","#familienleben"]},
-  {"id":"p17","angle":"aha","topic":"Kindergeld clever nutzen","format":"image",
-   "hooks":["Ein Teil vom Kindergeld kann Vermögen werden.","250 € Kindergeld. Was, wenn 25 € davon arbeiten gehen?"],
-   "caption":"Das Kindergeld ist für euer Kind da – und ein kleiner Teil davon kann langfristig Großes bewirken. 👶\n\nSchon 10 % davon monatlich investiert, summieren sich über 18 Jahre erheblich – inklusive der Chance auf Marktwachstum (Schwankungen gehören dazu).\n\nWie das konkret aussieht? Kostenloses Gespräch, Link in Bio.",
-   "hashtags":["#kindergeld","#sparenfürskind","#etfsparplan","#jungeeltern","#cleversparen","#familienfinanzen","#vermögensaufbau","#finanztipps"]},
-  {"id":"p18","angle":"vergleich","topic":"Ausbildungsversicherung vs. ETF-Sparplan","format":"image",
-   "hooks":["Ausbildungsversicherung vom Vertreter? Lies das zuerst.","Versicherung fürs Kind oder Sparplan – der Unterschied."],
-   "caption":"Klassische Ausbildungsversicherungen klingen sicher – haben aber oft hohe Kosten und wenig Flexibilität. 📋\n\nEin ETF-Sparplan ist transparent, günstig und flexibel – dafür schwankt er. Was für euch sinnvoll ist, hängt von Zielen und Sicherheitsbedürfnis ab.\n\nIch zeig dir beide Seiten ehrlich – kostenlos. Link in Bio.",
-   "hashtags":["#ausbildungsversicherung","#etfsparplan","#kindervorsorge","#jungeeltern","#finanzvergleich","#transparenz","#sparenfürskind","#ehrlichefinanzen"]},
-  {"id":"p19","angle":"emotion","topic":"Was Eltern wirklich vererben","format":"image",
-   "hooks":["Das wertvollste Erbe ist kein Geld. Aber Geld hilft.","Du gibst deinem Kind Werte mit. Und einen Startplatz."],
-   "caption":"Liebe, Zeit, Werte – das ist das wichtigste, was du deinem Kind mitgibst. Da kann kein Depot mithalten. ❤️\n\nAber ein finanzieller Startplatz nimmt deinem Kind später Druck: bei Ausbildung, Umzug, erstem eigenen Leben. Beides zusammen ist unbezahlbar.\n\nDen finanziellen Teil bauen wir gemeinsam – Link in Bio.",
-   "hashtags":["#elternliebe","#werte","#sparenfürskind","#etfsparplan","#familienzukunft","#jungeeltern","#startkapital","#fürmeinkind"]},
-  {"id":"p20","angle":"how-to","topic":"Sparplan trotz Elternzeit","format":"image",
-   "hooks":["Elternzeit, weniger Geld – trotzdem sparen? Geht.","Sparen in der Elternzeit: kleiner Trick, große Wirkung."],
-   "caption":"In der Elternzeit ist das Budget eng – klar. Der Trick: Starte mit einer Mini-Rate (z. B. 25 €) und erhöhe automatisch, wenn du wieder voll arbeitest. 📈\n\nSo verlierst du keine wertvollen frühen Jahre und überforderst euer Budget nicht.\n\nWie eure Stufen aussehen könnten? Kostenloses Gespräch – Link in Bio.",
-   "hashtags":["#elternzeit","#elterngeld","#sparenfürskind","#etfsparplan","#jungeeltern","#budgetfreundlich","#familienfinanzen","#minirate"]},
-  {"id":"p21","angle":"frage","topic":"Was, wenn ich das Geld mal brauche?","format":"image",
-   "hooks":["Und wenn ihr das Geld mal selbst braucht?","Notfall? So flexibel ist ein Sparplan wirklich."],
-   "caption":"Leben passiert: Auto kaputt, Job weg, Umzug. Die gute Nachricht: Sparpläne sind kein Gefängnis. 🔓\n\nPausieren, senken oder im Notfall verkaufen ist in der Regel möglich – je nach Gestaltung. Genau deshalb lohnt es sich, das Setup von Anfang an durchdacht zu wählen.\n\nFragen? Kostenloses Gespräch – Link in Bio.",
-   "hashtags":["#flexibelsparen","#notgroschen","#etfsparplan","#sparenfürskind","#jungeeltern","#finanzplanung","#familienfinanzen","#sicherheit"]},
-  {"id":"p22","angle":"aha","topic":"Steuerfreibeträge des Kindes","format":"image",
-   "hooks":["Dein Kind hat eigene Steuerfreibeträge. Nutzt du sie?","Der Steuer-Vorteil, den viele Eltern verschenken."],
-   "caption":"Wusstest du? Auch dein Kind hat eigene steuerliche Freibeträge – die beim Sparen aufs Kind genutzt werden können. 🧾\n\nDas kann über 18 Jahre einen echten Unterschied machen. Aber: Es gibt Details zu beachten (z. B. Auswirkungen auf die Familienversicherung).\n\nKeine Steuerberatung im Post – aber im Gespräch sortieren wir das. Link in Bio.",
-   "hashtags":["#steuerfreibetrag","#kinderdepot","#sparenfürskind","#etfsparplan","#jungeeltern","#steuernsparen","#finanzwissen","#familienfinanzen"]},
-  {"id":"p23","angle":"mythos","topic":"Dafür braucht man viel Wissen","format":"image",
-   "hooks":["„Dafür muss man sich auskennen.“ Nein, musst du nicht.","Du musst kein Finanzprofi sein. Dafür gibt's mich."],
-   "caption":"Viele Eltern starten nie, weil sie denken, sie müssten erst Experten werden. Müsst ihr nicht. 📚❌\n\nIhr müsst nur eine Entscheidung treffen – verständlich erklärt, ohne Fachchinesisch, mit offenen Karten bei Chancen und Risiken. Den Rest richten wir gemeinsam ein.\n\n60 Minuten, kostenlos, unverbindlich: Link in Bio.",
-   "hashtags":["#keinfinanzprofi","#einfacherklärt","#sparenfürskind","#etfsparplan","#jungeeltern","#finanzbildung","#aufaugenhöhe","#erstgespräch"]},
-  {"id":"p24","angle":"saison","topic":"Geburtstag = Spar-Anlass","format":"image",
-   "hooks":["Der nächste Kindergeburtstag ist der perfekte Spar-Anlass.","Noch ein Spielzeug? Oder ein Baustein für später?"],
-   "caption":"Zum Geburtstag wünschen sich alle was fürs Kind. Wie wäre es dieses Jahr mit etwas, das mitwächst? 🎂\n\nViele Familien bitten Verwandte statt des fünften Spielzeugs um einen Beitrag zum Sparplan – und die Großeltern machen meist begeistert mit.\n\nWie man das aufsetzt: kostenloses Gespräch, Link in Bio.",
-   "hashtags":["#kindergeburtstag","#sinnvollschenken","#sparenfürskind","#etfsparplan","#jungeeltern","#großeltern","#familienfinanzen","#geschenkidee"]}
+  {
+    "id": "p01",
+    "angle": "schmerz",
+    "topic": "Warten kostet Zinseszins",
+    "format": "image",
+    "hooks": [
+      "Jedes Jahr Warten kostet dein Kind richtig Geld.",
+      "Der teuerste Fehler beim Sparen fürs Kind: warten."
+    ],
+    "caption": "Wenn dein Kind heute 2 ist und du erst mit 10 anfängst, verschenkst du 8 Jahre Zinseszins – und genau die frühen Jahre wirken am stärksten. 📈\n\nDer beste Tag zum Starten war die Geburt. Der zweitbeste ist heute.\n\nDu willst wissen, was für euch realistisch ist? Kostenloses Erstgespräch – Link in Bio. 👆",
+    "hashtags": [
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#zinseszins",
+      "#kinderfinanzen",
+      "#vermögensaufbau",
+      "#finanztipps",
+      "#familienfinanzen"
+    ]
+  },
+  {
+    "id": "p02",
+    "angle": "schmerz",
+    "topic": "Sparbuch verliert gegen Inflation",
+    "format": "image",
+    "hooks": [
+      "Das Sparbuch fürs Kind verliert jedes Jahr Wert.",
+      "Dein Kind spart – die Inflation kassiert."
+    ],
+    "caption": "Inflation 2–3 %, Sparbuchzins fast null: Die Lücke zahlt am Ende dein Kind. 🐢\n\n100 € heute haben in 18 Jahren spürbar weniger Kaufkraft. Geld muss arbeiten, nicht schlafen – mit einem Plan, der zu eurer Familie passt.\n\nLass uns euer Setup anschauen, kostenlos & unverbindlich. Link in Bio.",
+    "hashtags": [
+      "#sparbuch",
+      "#inflation",
+      "#etfsparplan",
+      "#kindervorsorge",
+      "#jungeeltern",
+      "#finanzbildung",
+      "#sparenfürskind",
+      "#geldanlegen"
+    ]
+  },
+  {
+    "id": "p03",
+    "angle": "aha",
+    "topic": "25 Euro reichen zum Start",
+    "format": "image",
+    "hooks": [
+      "Du brauchst keine 500 €. 25 € im Monat reichen zum Start.",
+      "25 € im Monat. Mehr braucht der Anfang nicht."
+    ],
+    "caption": "„Ich hab doch kaum was übrig“ – der häufigste Satz. Und der häufigste Denkfehler. 💡\n\nBeim Sparen fürs Kind zählt nicht die Höhe, sondern der frühe Start. 25 € sind ein Anfang, den du jederzeit erhöhen kannst.\n\nWas wäre dein Startbetrag? Schreib's in die Kommentare 👇 Kostenloses Erstgespräch: Link in Bio.",
+    "hashtags": [
+      "#kleinanfangen",
+      "#sparplan",
+      "#etffürkinder",
+      "#jungeeltern",
+      "#sparenfürskind",
+      "#finanzenfürmütter",
+      "#finanzenfürväter",
+      "#kinderzukunft"
+    ]
+  },
+  {
+    "id": "p04",
+    "angle": "aha",
+    "topic": "3 Fehler beim Sparen fürs Kind",
+    "format": "image",
+    "hooks": [
+      "3 Fehler, die Eltern beim Sparen fürs Kind machen.",
+      "Diese 3 Fehler kosten dein Kind bares Geld."
+    ],
+    "caption": "Fehler 1: Zu spät anfangen – Zeit ist der größte Hebel.\nFehler 2: Alles aufs Sparbuch – die Inflation gewinnt.\nFehler 3: Aus Angst vor Risiko gar nichts tun. 📌\n\nNiemand macht das mit Absicht falsch. Meist fehlt nur jemand, der es ruhig erklärt – genau dafür gibt es das kostenlose Erstgespräch. Link in Bio.",
+    "hashtags": [
+      "#elterntipps",
+      "#finanzfehler",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#kinderfinanzen",
+      "#jungeeltern",
+      "#vorsorge",
+      "#geldtipps"
+    ]
+  },
+  {
+    "id": "p05",
+    "angle": "frage",
+    "topic": "Was passiert mit 18 mit dem Geld?",
+    "format": "image",
+    "hooks": [
+      "Was passiert mit dem Geld, wenn dein Kind 18 wird?",
+      "Mit 18 gehört das Geld deinem Kind. Oder?"
+    ],
+    "caption": "Eine der häufigsten Elternfragen – und die Antwort hängt davon ab, wie der Sparplan aufgesetzt ist. 🎁\n\nLäuft er auf das Kind oder auf euch? Das entscheidet über Zugriff, Steuern und Flexibilität. Genau das sollte man am Anfang bewusst wählen, nicht kurz vor dem 18. Geburtstag.\n\nFragen dazu? Kostenloses Gespräch – Link in Bio.",
+    "hashtags": [
+      "#sparenfürskind",
+      "#18geburtstag",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#finanzplanung",
+      "#vorsorgefürskind",
+      "#elternwissen",
+      "#familienfinanzen"
+    ]
+  },
+  {
+    "id": "p06",
+    "angle": "vergleich",
+    "topic": "Sparbuch vs. Tagesgeld vs. ETF",
+    "format": "image",
+    "hooks": [
+      "Sparbuch vs. Tagesgeld vs. ETF – was fürs Kind?",
+      "Wohin mit dem Geld fürs Kind? Der ehrliche Vergleich."
+    ],
+    "caption": "Sparbuch: sehr sicher, kaum Zinsen, Inflation frisst mit.\nTagesgeld: flexibel, etwas mehr Zins, langfristig begrenzt.\nETF-Sparplan: Chance auf Wachstum über lange Zeiträume – mit Schwankungen. ⚖️\n\nFaustregel: kurzfristig Sicherheit, langfristig Wachstum. Und 18 Jahre sind lang. Welcher Mix zu euch passt, klären wir im kostenlosen Gespräch – Link in Bio.",
+    "hashtags": [
+      "#tagesgeld",
+      "#sparbuch",
+      "#etfsparplan",
+      "#geldanlegen",
+      "#kindersparen",
+      "#jungeeltern",
+      "#finanzvergleich",
+      "#vermögensaufbau"
+    ]
+  },
+  {
+    "id": "p07",
+    "angle": "story",
+    "topic": "Omas Geldgeschenke bündeln",
+    "format": "image",
+    "hooks": [
+      "Oma steckt dem Kind wieder 20 € zu. Mach mehr draus.",
+      "Geldgeschenke verpuffen. Außer du machst das hier."
+    ],
+    "caption": "Geburtstag, Weihnachten, Taufe – über die Jahre kommt richtig was zusammen. 🎈\n\nStatt im Portemonnaie zu verschwinden, können Geldgeschenke in den Sparplan fließen und für die Zukunft deines Kindes arbeiten.\n\nWie man das clever bündelt, zeige ich dir im kostenlosen Gespräch. Link in Bio.",
+    "hashtags": [
+      "#geldgeschenk",
+      "#omaundopa",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#familienfinanzen",
+      "#jungeeltern",
+      "#kinderzukunft",
+      "#geschenkidee"
+    ]
+  },
+  {
+    "id": "p08",
+    "angle": "einwand",
+    "topic": "ETFs sind mir zu riskant",
+    "format": "image",
+    "hooks": [
+      "„ETFs sind mir zu riskant.“ Reden wir ehrlich darüber.",
+      "Risiko ist real. Glücksspiel ist es trotzdem nicht."
+    ],
+    "caption": "Risiko ist real – wer etwas anderes behauptet, lügt. 🙅\n\nAber Risiko heißt nicht Glücksspiel: Breit gestreut und über lange Zeiträume sieht das Bild ganz anders aus als bei „heute rein, morgen raus“. Wichtig: Frühere Entwicklungen sind keine Garantie für die Zukunft.\n\nLass uns deine Risikobereitschaft ehrlich anschauen – kostenlos. Link in Bio.",
+    "hashtags": [
+      "#etfrisiko",
+      "#geldanlage",
+      "#finanzbildung",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#langfristigdenken",
+      "#ehrlichefinanzen",
+      "#börsefüranfänger"
+    ]
+  },
+  {
+    "id": "p09",
+    "angle": "how-to",
+    "topic": "Checkliste: Sparplan starten",
+    "format": "image",
+    "hooks": [
+      "Checkliste: So startest du den Sparplan fürs Kind.",
+      "5 Punkte – dann läuft der Sparplan fast von allein."
+    ],
+    "caption": "1. Ziel klären: Ausbildung? Startkapital?\n2. Realistische Rate – lieber klein & dauerhaft.\n3. Auf wen läuft der Plan? (Kind oder Eltern – hat Folgen!)\n4. Breit streuen statt auf eine Karte setzen.\n5. Automatisieren und in Ruhe laufen lassen. 📌\n\nPunkt 3 übersehen die meisten. Unsicher? Kostenloses Gespräch – Link in Bio.",
+    "hashtags": [
+      "#checkliste",
+      "#sparplan",
+      "#etffürkinder",
+      "#jungeeltern",
+      "#finanzplanung",
+      "#kindervorsorge",
+      "#elterntipps",
+      "#sparenfürskind"
+    ]
+  },
+  {
+    "id": "p10",
+    "angle": "emotion",
+    "topic": "Der 18. Geburtstag",
+    "format": "image",
+    "hooks": [
+      "Stell dir den 18. Geburtstag deines Kindes vor.",
+      "Was schenkst du deinem Kind zum 18.? Rückenwind."
+    ],
+    "caption": "Du kannst deinem Kind mit 18 vieles wünschen. Finanziellen Rückenwind kannst du ihm bauen – ab heute, in kleinen Schritten. 🌱\n\nKein Druck, keine Riesenbeträge. Nur ein Plan, der zu eurer Familie passt und still im Hintergrund arbeitet.\n\nLass uns starten: kostenloses Erstgespräch, Link in Bio.",
+    "hashtags": [
+      "#fürmeinkind",
+      "#zukunftschenken",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#elternliebe",
+      "#familienzukunft",
+      "#startvorteil"
+    ]
+  },
+  {
+    "id": "p11",
+    "angle": "frage",
+    "topic": "Depot auf Kind oder Eltern?",
+    "format": "image",
+    "hooks": [
+      "Sparplan auf das Kind oder auf euch? Das ist die Frage.",
+      "Kinderdepot oder Elterndepot – was ist klüger?"
+    ],
+    "caption": "Beides hat Vor- und Nachteile: Beim Kinderdepot gehört das Geld rechtlich dem Kind (inkl. eigener Steuerfreibeträge), beim Elterndepot behaltet ihr die volle Kontrolle. 🤔\n\nWas besser passt, hängt von euren Zielen ab – und sollte vor dem ersten Euro entschieden sein.\n\nGenau dafür ist das kostenlose Erstgespräch da. Link in Bio.",
+    "hashtags": [
+      "#kinderdepot",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#steuerfreibetrag",
+      "#finanzwissen",
+      "#familienfinanzen",
+      "#vorsorge"
+    ]
+  },
+  {
+    "id": "p12",
+    "angle": "mythos",
+    "topic": "Aktien sind Glücksspiel",
+    "format": "image",
+    "hooks": [
+      "Mythos: „Aktien sind Glücksspiel.“ Die Fakten für Eltern.",
+      "Casino oder Vermögensaufbau? Der Unterschied ist Zeit."
+    ],
+    "caption": "Beim Glücksspiel verlierst du im Schnitt. Bei breit gestreuten Aktienmärkten war es historisch über lange Zeiträume umgekehrt – ohne Garantie, aber mit System. 🎲❌\n\nDer Unterschied: Streuung + Zeit statt Zocken + Glück. Und Zeit hast du beim Sparen fürs Kind reichlich.\n\nFragen? Kostenloses Gespräch – Link in Bio.",
+    "hashtags": [
+      "#finanzmythen",
+      "#aktienfüranfänger",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#finanzbildung",
+      "#jungeeltern",
+      "#langfristig",
+      "#vermögensaufbau"
+    ]
+  },
+  {
+    "id": "p13",
+    "angle": "aha",
+    "topic": "Startzeitpunkt schlägt Sparrate",
+    "format": "image",
+    "hooks": [
+      "Früh + wenig schlägt spät + viel. Fast immer.",
+      "Der Startzeitpunkt ist wichtiger als die Sparrate."
+    ],
+    "caption": "Wer ab Geburt klein spart, steht am 18. Geburtstag oft besser da als jemand, der spät mit dem Doppelten startet. ⏰\n\nDer Grund: Zinseszins braucht vor allem eines – Zeit. Genau deshalb ist „später, wenn mehr übrig ist“ so teuer.\n\nStarte klein, starte jetzt. Kostenloses Gespräch: Link in Bio.",
+    "hashtags": [
+      "#zinseszins",
+      "#früherstarten",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#finanztipps",
+      "#kinderzukunft",
+      "#vermögensaufbau"
+    ]
+  },
+  {
+    "id": "p14",
+    "angle": "story",
+    "topic": "Der erste Schritt nach der Geburt",
+    "format": "image",
+    "hooks": [
+      "Frisch Eltern geworden? Dieser Geld-Schritt lohnt sich jetzt.",
+      "Windeln, Schlafmangel – und eine Finanzentscheidung."
+    ],
+    "caption": "Zwischen Windeln und Schlafmangel denkt niemand an Finanzen – verständlich. ❤️\n\nAber genau jetzt ist der wertvollste Moment: Jeder Monat ab Geburt arbeitet 18 Jahre lang für dein Kind. Ein Sparplan ist in einem Gespräch aufgesetzt und läuft dann automatisch.\n\nKostenlos & unverbindlich: Link in Bio.",
+    "hashtags": [
+      "#frischgebackeneeltern",
+      "#babyglück",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#elternzeit",
+      "#familienfinanzen",
+      "#vorsorge"
+    ]
+  },
+  {
+    "id": "p15",
+    "angle": "frage",
+    "topic": "Ab wann lohnt sich ein Sparplan?",
+    "format": "image",
+    "hooks": [
+      "Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?",
+      "Lohnt sich das überhaupt bei kleinem Budget?"
+    ],
+    "caption": "Kurze Antwort: ab 25 € im Monat. Lange Antwort: Es lohnt sich, sobald du regelmäßig sparen kannst – egal wie klein. 💶\n\nDenn die Rate kannst du jederzeit anpassen. Die verlorene Zeit holst du nie zurück.\n\nWas bei eurem Budget möglich ist, rechnen wir gemeinsam durch – kostenlos. Link in Bio.",
+    "hashtags": [
+      "#sparplan",
+      "#kleinesparrate",
+      "#etffürkinder",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#budgettipps",
+      "#familienfinanzen",
+      "#finanztipps"
+    ]
+  },
+  {
+    "id": "p16",
+    "angle": "einwand",
+    "topic": "Keine Zeit für Finanzkram",
+    "format": "image",
+    "hooks": [
+      "„Keine Zeit für Finanzkram.“ Brauchst du auch nicht.",
+      "Ein Gespräch. Dann läuft es 18 Jahre allein."
+    ],
+    "caption": "Die gute Nachricht für alle Eltern ohne Zeit: Ein Sparplan ist kein Hobby. 🕐\n\nEinmal sauber aufgesetzt, läuft er automatisch – Monat für Monat, ohne dass du dich kümmern musst. Das Aufsetzen übernehmen wir gemeinsam in einem einzigen Gespräch.\n\n60 Minuten für 18 Jahre Autopilot: Link in Bio.",
+    "hashtags": [
+      "#keinezeit",
+      "#elternalltag",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#automatischsparen",
+      "#jungeeltern",
+      "#einfachefinanzen",
+      "#familienleben"
+    ]
+  },
+  {
+    "id": "p17",
+    "angle": "aha",
+    "topic": "Kindergeld clever nutzen",
+    "format": "image",
+    "hooks": [
+      "Ein Teil vom Kindergeld kann Vermögen werden.",
+      "250 € Kindergeld. Was, wenn 25 € davon arbeiten gehen?"
+    ],
+    "caption": "Das Kindergeld ist für euer Kind da – und ein kleiner Teil davon kann langfristig Großes bewirken. 👶\n\nSchon 10 % davon monatlich investiert, summieren sich über 18 Jahre erheblich – inklusive der Chance auf Marktwachstum (Schwankungen gehören dazu).\n\nWie das konkret aussieht? Kostenloses Gespräch, Link in Bio.",
+    "hashtags": [
+      "#kindergeld",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#cleversparen",
+      "#familienfinanzen",
+      "#vermögensaufbau",
+      "#finanztipps"
+    ]
+  },
+  {
+    "id": "p18",
+    "angle": "vergleich",
+    "topic": "Ausbildungsversicherung vs. ETF-Sparplan",
+    "format": "image",
+    "hooks": [
+      "Ausbildungsversicherung vom Vertreter? Lies das zuerst.",
+      "Versicherung fürs Kind oder Sparplan – der Unterschied."
+    ],
+    "caption": "Klassische Ausbildungsversicherungen klingen sicher – haben aber oft hohe Kosten und wenig Flexibilität. 📋\n\nEin ETF-Sparplan ist transparent, günstig und flexibel – dafür schwankt er. Was für euch sinnvoll ist, hängt von Zielen und Sicherheitsbedürfnis ab.\n\nIch zeig dir beide Seiten ehrlich – kostenlos. Link in Bio.",
+    "hashtags": [
+      "#ausbildungsversicherung",
+      "#etfsparplan",
+      "#kindervorsorge",
+      "#jungeeltern",
+      "#finanzvergleich",
+      "#transparenz",
+      "#sparenfürskind",
+      "#ehrlichefinanzen"
+    ]
+  },
+  {
+    "id": "p19",
+    "angle": "emotion",
+    "topic": "Was Eltern wirklich vererben",
+    "format": "image",
+    "hooks": [
+      "Das wertvollste Erbe ist kein Geld. Aber Geld hilft.",
+      "Du gibst deinem Kind Werte mit. Und einen Startplatz."
+    ],
+    "caption": "Liebe, Zeit, Werte – das ist das wichtigste, was du deinem Kind mitgibst. Da kann kein Depot mithalten. ❤️\n\nAber ein finanzieller Startplatz nimmt deinem Kind später Druck: bei Ausbildung, Umzug, erstem eigenen Leben. Beides zusammen ist unbezahlbar.\n\nDen finanziellen Teil bauen wir gemeinsam – Link in Bio.",
+    "hashtags": [
+      "#elternliebe",
+      "#werte",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#familienzukunft",
+      "#jungeeltern",
+      "#startkapital",
+      "#fürmeinkind"
+    ]
+  },
+  {
+    "id": "p20",
+    "angle": "how-to",
+    "topic": "Sparplan trotz Elternzeit",
+    "format": "image",
+    "hooks": [
+      "Elternzeit, weniger Geld – trotzdem sparen? Geht.",
+      "Sparen in der Elternzeit: kleiner Trick, große Wirkung."
+    ],
+    "caption": "In der Elternzeit ist das Budget eng – klar. Der Trick: Starte mit einer Mini-Rate (z. B. 25 €) und erhöhe automatisch, wenn du wieder voll arbeitest. 📈\n\nSo verlierst du keine wertvollen frühen Jahre und überforderst euer Budget nicht.\n\nWie eure Stufen aussehen könnten? Kostenloses Gespräch – Link in Bio.",
+    "hashtags": [
+      "#elternzeit",
+      "#elterngeld",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#budgetfreundlich",
+      "#familienfinanzen",
+      "#minirate"
+    ]
+  },
+  {
+    "id": "p21",
+    "angle": "frage",
+    "topic": "Was, wenn ich das Geld mal brauche?",
+    "format": "image",
+    "hooks": [
+      "Und wenn ihr das Geld mal selbst braucht?",
+      "Notfall? So flexibel ist ein Sparplan wirklich."
+    ],
+    "caption": "Leben passiert: Auto kaputt, Job weg, Umzug. Die gute Nachricht: Sparpläne sind kein Gefängnis. 🔓\n\nPausieren, senken oder im Notfall verkaufen ist in der Regel möglich – je nach Gestaltung. Genau deshalb lohnt es sich, das Setup von Anfang an durchdacht zu wählen.\n\nFragen? Kostenloses Gespräch – Link in Bio.",
+    "hashtags": [
+      "#flexibelsparen",
+      "#notgroschen",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#finanzplanung",
+      "#familienfinanzen",
+      "#sicherheit"
+    ]
+  },
+  {
+    "id": "p22",
+    "angle": "aha",
+    "topic": "Steuerfreibeträge des Kindes",
+    "format": "image",
+    "hooks": [
+      "Dein Kind hat eigene Steuerfreibeträge. Nutzt du sie?",
+      "Der Steuer-Vorteil, den viele Eltern verschenken."
+    ],
+    "caption": "Wusstest du? Auch dein Kind hat eigene steuerliche Freibeträge – die beim Sparen aufs Kind genutzt werden können. 🧾\n\nDas kann über 18 Jahre einen echten Unterschied machen. Aber: Es gibt Details zu beachten (z. B. Auswirkungen auf die Familienversicherung).\n\nKeine Steuerberatung im Post – aber im Gespräch sortieren wir das. Link in Bio.",
+    "hashtags": [
+      "#steuerfreibetrag",
+      "#kinderdepot",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#steuernsparen",
+      "#finanzwissen",
+      "#familienfinanzen"
+    ]
+  },
+  {
+    "id": "p23",
+    "angle": "mythos",
+    "topic": "Dafür braucht man viel Wissen",
+    "format": "image",
+    "hooks": [
+      "„Dafür muss man sich auskennen.“ Nein, musst du nicht.",
+      "Du musst kein Finanzprofi sein. Dafür gibt's mich."
+    ],
+    "caption": "Viele Eltern starten nie, weil sie denken, sie müssten erst Experten werden. Müsst ihr nicht. 📚❌\n\nIhr müsst nur eine Entscheidung treffen – verständlich erklärt, ohne Fachchinesisch, mit offenen Karten bei Chancen und Risiken. Den Rest richten wir gemeinsam ein.\n\n60 Minuten, kostenlos, unverbindlich: Link in Bio.",
+    "hashtags": [
+      "#keinfinanzprofi",
+      "#einfacherklärt",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#finanzbildung",
+      "#aufaugenhöhe",
+      "#erstgespräch"
+    ]
+  },
+  {
+    "id": "p24",
+    "angle": "saison",
+    "topic": "Geburtstag = Spar-Anlass",
+    "format": "image",
+    "hooks": [
+      "Der nächste Kindergeburtstag ist der perfekte Spar-Anlass.",
+      "Noch ein Spielzeug? Oder ein Baustein für später?"
+    ],
+    "caption": "Zum Geburtstag wünschen sich alle was fürs Kind. Wie wäre es dieses Jahr mit etwas, das mitwächst? 🎂\n\nViele Familien bitten Verwandte statt des fünften Spielzeugs um einen Beitrag zum Sparplan – und die Großeltern machen meist begeistert mit.\n\nWie man das aufsetzt: kostenloses Gespräch, Link in Bio.",
+    "hashtags": [
+      "#kindergeburtstag",
+      "#sinnvollschenken",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#großeltern",
+      "#familienfinanzen",
+      "#geschenkidee"
+    ]
+  },
+  {
+    "id": "c01",
+    "angle": "aha",
+    "topic": "5 Dinge, die finanzstarke Familien anders machen",
+    "format": "carousel",
+    "goal": "conversion",
+    "hooks": [
+      "5 Dinge, die finanzstarke Familien beim Kindersparen anders machen.",
+      "Diese 5 Gewohnheiten trennen Sparer von Vermögensbauern."
+    ],
+    "slides": [
+      "5 Dinge, die finanzstarke Familien beim Kindersparen anders machen 👇",
+      "1. Sie starten früh.\nNicht wenn „mehr übrig ist“ – sondern jetzt. Zeit schlägt Betrag.",
+      "2. Sie automatisieren.\nDauerauftrag statt Disziplin. Was automatisch läuft, passiert wirklich.",
+      "3. Sie lassen Geld arbeiten.\nBreit gestreut investiert statt auf dem Sparbuch geparkt.",
+      "4. Sie bündeln Geldgeschenke.\nOmas 50 € fließen in den Sparplan statt in die Spielzeugkiste.",
+      "5. Sie holen sich einmal Klarheit.\nEin gutes Setup am Anfang spart Jahre an Fehlern.",
+      "Welcher Punkt fehlt bei euch noch?\n→ Kostenloses Erstgespräch: Link in Bio"
+    ],
+    "caption": "Keiner dieser 5 Punkte braucht ein hohes Einkommen – nur eine Entscheidung. 💪\n\nSpeichere den Post für später und sag mir in den Kommentaren: Welchen Punkt setzt ihr schon um?\n\nFür euer persönliches Setup: kostenloses Erstgespräch – Link in Bio.",
+    "hashtags": [
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#geldgewohnheiten",
+      "#familienfinanzen",
+      "#vermögensaufbau",
+      "#finanztipps",
+      "#kinderzukunft"
+    ]
+  },
+  {
+    "id": "c02",
+    "angle": "vergleich",
+    "topic": "Sparbuch vs. ETF über 18 Jahre",
+    "format": "carousel",
+    "goal": "conversion",
+    "hooks": [
+      "Sparbuch vs. ETF-Sparplan: 18 Jahre im direkten Vergleich.",
+      "Zwei Familien, 50 € im Monat – zwei völlig verschiedene Ergebnisse."
+    ],
+    "slides": [
+      "Zwei Familien sparen 50 €/Monat fürs Kind.\n18 Jahre lang. Der Unterschied? 👇",
+      "Familie A: Sparbuch.\nEingezahlt: 10.800 €.\nZinsen: fast keine. Kaufkraft: durch Inflation gesunken.",
+      "Familie B: ETF-Sparplan.\nEingezahlt: 10.800 €.\nChance auf deutlich mehr – historisch oft das 1,5- bis 2-fache.*",
+      "Der Unterschied ist nicht das Einkommen.\nEs ist die Entscheidung, wo das Geld liegt.",
+      "*Wichtig: ETFs schwanken. Verluste sind möglich.\nVergangenheit ≠ Zukunft. Aber 18 Jahre sind ein langer Atem.",
+      "Welche Familie wollt ihr sein?\n→ Kostenloses Erstgespräch: Link in Bio"
+    ],
+    "caption": "Gleiches Geld, gleiche Zeit – anderes Ergebnis. 📊\n\nDie ehrliche Wahrheit: Niemand kann dir Renditen garantieren. Aber die Inflation auf dem Sparbuch ist ziemlich sicher.\n\nLass uns durchrechnen, was für euch realistisch ist: Link in Bio.",
+    "hashtags": [
+      "#sparbuchvsetf",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#zinseszins",
+      "#inflation",
+      "#familienfinanzen",
+      "#finanzvergleich"
+    ]
+  },
+  {
+    "id": "c03",
+    "angle": "how-to",
+    "topic": "Kinderdepot in 5 Schritten",
+    "format": "carousel",
+    "goal": "conversion",
+    "hooks": [
+      "Kinderdepot eröffnen: die 5 Schritte, einfach erklärt.",
+      "So läuft die Depot-Eröffnung fürs Kind wirklich ab."
+    ],
+    "slides": [
+      "Kinderdepot eröffnen – so läuft's ab 👇\n(Einfacher als du denkst)",
+      "Schritt 1: Ziel & Rate festlegen.\nWofür spart ihr? Was passt monatlich – auch in engen Monaten?",
+      "Schritt 2: Kind oder Eltern?\nAuf wen das Depot läuft, entscheidet über Steuern & Kontrolle.",
+      "Schritt 3: Unterlagen.\nGeburtsurkunde, Ausweise beider Eltern – mehr braucht es meist nicht.",
+      "Schritt 4: Breit gestreuten Sparplan einrichten.\nEinmal aufsetzen, automatisch laufen lassen.",
+      "Schritt 5: In Ruhe lassen.\nNicht täglich schauen. Zeit arbeiten lassen. 🌱",
+      "Bei Schritt 1 und 2 helfe ich euch persönlich.\n→ Kostenlos: Link in Bio"
+    ],
+    "caption": "Die meisten Eltern schieben das Thema auf, weil es kompliziert wirkt. Ist es nicht – wenn die ersten zwei Entscheidungen sitzen. ✅\n\nGenau die klären wir gemeinsam im kostenlosen Erstgespräch. Link in Bio.",
+    "hashtags": [
+      "#kinderdepot",
+      "#schrittfürschritt",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#depoteröffnen",
+      "#finanzplanung",
+      "#elterntipps"
+    ]
+  },
+  {
+    "id": "c04",
+    "angle": "mythos",
+    "topic": "4 Geld-Mythen von Eltern",
+    "format": "carousel",
+    "goal": "trust",
+    "hooks": [
+      "4 Geld-Mythen, die Eltern Geld kosten.",
+      "Diese 4 Sätze höre ich jede Woche – und alle sind falsch."
+    ],
+    "slides": [
+      "4 Sätze, die ich als Berater jede Woche höre –\nund warum sie nicht stimmen 👇",
+      "„Dafür braucht man viel Geld.“\nNein. 25 €/Monat reichen für den Start. Der Start zählt, nicht der Betrag.",
+      "„Aktien sind Zocken.“\nZocken ist: alles auf eine Karte. Investieren ist: breit streuen + Zeit. Das Gegenteil.",
+      "„Das mache ich, wenn das Kind größer ist.“\nDann sind die wertvollsten Zinseszins-Jahre weg. Für immer.",
+      "„Banken wollen mich eh nur abzocken.“\nBerechtigtes Misstrauen! Deshalb: alles transparent, alle Kosten offen. Immer.",
+      "Welchen Satz hast du selbst schon gesagt? 😉\nEhrliche Antworten in die Kommentare 👇"
+    ],
+    "caption": "Keiner dieser Sätze macht dich zu einem schlechten Elternteil – sie sind menschlich. Aber sie kosten dein Kind Zeit. ⏰\n\nWelchen davon hast du selbst schon gedacht? Sag's mir in den Kommentaren – ich antworte auf jeden. 👇",
+    "hashtags": [
+      "#finanzmythen",
+      "#ehrlichefinanzen",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#finanzbildung",
+      "#transparenz",
+      "#elternfragen"
+    ]
+  },
+  {
+    "id": "c05",
+    "angle": "story",
+    "topic": "Geldgeschenke, die mitwachsen",
+    "format": "carousel",
+    "goal": "conversion",
+    "hooks": [
+      "4 Geschenk-Ideen, die mit deinem Kind mitwachsen.",
+      "Das 5. Spielzeug oder ein Baustein für später?"
+    ],
+    "slides": [
+      "Das nächste Familienfest kommt bestimmt.\n4 Geschenk-Ideen, die mitwachsen 👇",
+      "Idee 1: Der Sparplan-Beitrag.\nStatt Spielzeug Nr. 5 zahlen Oma & Opa in den Sparplan ein.",
+      "Idee 2: Der Geburtstags-Dauerauftrag.\n10 €/Monat von den Großeltern = riesiger Effekt über 18 Jahre.",
+      "Idee 3: Das Meilenstein-Geschenk.\nEinschulung, Kommunion, Jugendweihe – Anlässe für Einmalbeiträge.",
+      "Idee 4: Die Geschenk-Karte mit Sinn.\n„Wir haben für deine Zukunft eingezahlt“ – plus kleines Spielzeug. 😉",
+      "Wie ihr das technisch sauber aufsetzt?\n→ Kostenloses Erstgespräch: Link in Bio"
+    ],
+    "caption": "Großeltern WOLLEN meist etwas Sinnvolles schenken – man muss es ihnen nur leicht machen. 🎁\n\nTeile den Post mit der Familie, dann erklärt er sich von selbst. Und für das Setup: Link in Bio.",
+    "hashtags": [
+      "#geldgeschenk",
+      "#großeltern",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#geschenkidee",
+      "#familienfinanzen",
+      "#jungeeltern",
+      "#sinnvollschenken"
+    ]
+  },
+  {
+    "id": "c06",
+    "angle": "aha",
+    "topic": "Was 50 Euro im Monat können",
+    "format": "carousel",
+    "goal": "conversion",
+    "hooks": [
+      "50 € im Monat. Schauen wir ehrlich, was daraus werden kann.",
+      "Eine Pizza weniger pro Monat – und was sie deinem Kind bringt."
+    ],
+    "slides": [
+      "50 € im Monat fürs Kind.\nKlingt wenig? Rechnen wir ehrlich. 👇",
+      "Eingezahlt über 18 Jahre:\n50 € × 216 Monate = 10.800 €.",
+      "Auf dem Sparbuch:\nbleiben ≈ 10.800 € – minus Inflation. Real also weniger.",
+      "Im breit gestreuten ETF-Sparplan:\nbei 6 % p.a. rechnerisch ≈ 19.000 €.*\n*Beispiel, keine Garantie – Schwankungen & Verluste möglich.",
+      "Der Unterschied: ≈ 8.000 €.\nFür dieselben 50 €. Nur woanders geparkt.",
+      "Was sind 50 € bei euch? Eine Pizza + ein Streamingdienst?\n→ Lass es uns durchrechnen: Link in Bio"
+    ],
+    "caption": "Ich rechne bewusst konservativ und sage dazu: Es gibt keine Garantie, ETFs schwanken. 📉📈\n\nAber die Mathematik des frühen Anfangens ist kein Geheimnis – sie ist nur unbequem, weil sie „jetzt“ verlangt.\n\nEure Zahlen rechnen wir gemeinsam: Link in Bio.",
+    "hashtags": [
+      "#50euro",
+      "#zinseszins",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#beispielrechnung",
+      "#familienfinanzen",
+      "#ehrlichefinanzen"
+    ]
+  },
+  {
+    "id": "r01",
+    "angle": "aha",
+    "topic": "Zinseszins in 40 Sekunden erklärt",
+    "format": "reel",
+    "goal": "conversion",
+    "hooks": [
+      "Zinseszins in 40 Sekunden – danach verstehst du ihn für immer.",
+      "Der 8. Weltwunder-Effekt, den die meisten Eltern verschenken."
+    ],
+    "script": {
+      "voiceover": "Stell dir vor, du legst für dein Kind jeden Monat fünfzig Euro zurück. Im ersten Jahr passiert: fast nichts. Und genau hier geben die meisten auf. Aber Zinseszins funktioniert wie ein Schneeball. Am Anfang rollt er langsam. Doch jedes Jahr wächst er auf dem, was er vorher schon angesammelt hat. Nach zehn Jahren wird es sichtbar. Nach achtzehn Jahren ist der Schneeball oft größer als alles, was du eingezahlt hast. Der Haken? Du kannst die ersten Jahre nicht überspringen. Deshalb ist der beste Starttag heute. Wichtig: ETFs schwanken, Verluste sind möglich. Aber Zeit ist dein stärkster Verbündeter. Kostenloses Erstgespräch? Link in Bio.",
+      "scenes": [
+        {
+          "text": "Zinseszins in 40 Sekunden ⏱️",
+          "dur": 3
+        },
+        {
+          "text": "50 €/Monat fürs Kind.\nJahr 1: passiert fast nichts. 😴",
+          "dur": 5
+        },
+        {
+          "text": "Genau hier geben\ndie meisten auf.",
+          "dur": 4
+        },
+        {
+          "text": "Aber: Zinseszins =\nSchneeball-Effekt ❄️",
+          "dur": 4
+        },
+        {
+          "text": "Jedes Jahr wächst er auf dem,\nwas schon da ist.",
+          "dur": 5
+        },
+        {
+          "text": "Jahr 10: sichtbar.\nJahr 18: oft größer als alle Einzahlungen.*",
+          "dur": 6
+        },
+        {
+          "text": "Der Haken: Die ersten Jahre\nkann man nicht überspringen.",
+          "dur": 5
+        },
+        {
+          "text": "Bester Starttag: HEUTE.\n→ Kostenloses Erstgespräch: Link in Bio",
+          "dur": 5
+        },
+        {
+          "text": "*ETFs schwanken. Verluste möglich.\nKeine Anlageberatung.",
+          "dur": 3
+        }
+      ]
+    },
+    "caption": "Der Schneeball rollt nur, wenn du ihn anstößt. ❄️\n\nJedes Jahr Warten kostet dich die wertvollsten Jahre des Effekts – die letzten. Klingt paradox, ist aber Mathe.\n\nLass uns euren Schneeball anstoßen: kostenloses Erstgespräch, Link in Bio.",
+    "hashtags": [
+      "#zinseszins",
+      "#erklärvideo",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#finanzbildung",
+      "#schneeballeffekt",
+      "#vermögensaufbau"
+    ]
+  },
+  {
+    "id": "r02",
+    "angle": "story",
+    "topic": "3 Dinge, die ich als Berater bei meinem eigenen Geld anders mache",
+    "format": "reel",
+    "goal": "trust",
+    "hooks": [
+      "3 Dinge, die ich als Finanzberater privat anders mache.",
+      "Was ich mit meinem eigenen Geld mache? Ehrliche Antwort."
+    ],
+    "script": {
+      "voiceover": "Drei Dinge, die ich als Finanzberater mit meinem eigenen Geld anders mache, als die meisten denken. Erstens: Ich schaue nicht jeden Tag ins Depot. Ehrlich gesagt nicht mal jeden Monat. Was automatisch läuft, braucht keine Aufmerksamkeit. Zweitens: Ich time den Markt nicht. Niemand kann das zuverlässig, auch ich nicht. Regelmäßig investieren schlägt perfektes Timing. Drittens: Ich habe zuerst einen Notgroschen aufgebaut, bevor ich investiert habe. Investieren ohne Sicherheitspuffer ist Stress, den niemand braucht. Kein Hexenwerk, oder? Genau so einfach erkläre ich es auch im Gespräch. Link in Bio.",
+      "scenes": [
+        {
+          "text": "3 Dinge, die ich als Berater\nmit MEINEM Geld anders mache 👇",
+          "dur": 4
+        },
+        {
+          "text": "1. Ich schaue NICHT\njeden Tag ins Depot. 🙈",
+          "dur": 5
+        },
+        {
+          "text": "Was automatisch läuft,\nbraucht keine Aufmerksamkeit.",
+          "dur": 4
+        },
+        {
+          "text": "2. Ich time den Markt nicht.\nNiemand kann das. Auch ich nicht.",
+          "dur": 6
+        },
+        {
+          "text": "Regelmäßig investieren\n> perfektes Timing",
+          "dur": 4
+        },
+        {
+          "text": "3. Erst Notgroschen,\ndann investieren. 🛟",
+          "dur": 5
+        },
+        {
+          "text": "Kein Hexenwerk.\nGenau so einfach erkläre ich's dir auch.",
+          "dur": 5
+        },
+        {
+          "text": "→ Kostenloses Erstgespräch: Link in Bio\n(Keine Anlageberatung im Video)",
+          "dur": 4
+        }
+      ]
+    },
+    "caption": "Transparenz schafft Vertrauen – deshalb zeige ich euch, wie ich es selbst mache. 🤝\n\nNichts davon ist kompliziert. Das meiste ist sogar langweilig. Und genau das ist der Punkt: Gute Geldanlage ist langweilig.\n\nFragen? Schreib mir – ich antworte persönlich. Oder direkt: Link in Bio.",
+    "hashtags": [
+      "#hinterdenkulissen",
+      "#ehrlichefinanzen",
+      "#finanzberater",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#transparenz",
+      "#sparenfürskind",
+      "#vertrauen"
+    ]
+  },
+  {
+    "id": "r03",
+    "angle": "frage",
+    "topic": "Kinderdepot vs. Elterndepot erklärt",
+    "format": "reel",
+    "goal": "conversion",
+    "hooks": [
+      "Depot auf dein Kind oder auf dich? Die Antwort in 35 Sekunden.",
+      "Diese eine Entscheidung verändert alles am Kindersparplan."
+    ],
+    "script": {
+      "voiceover": "Sparplan fürs Kind: Läuft das Depot auf das Kind oder auf euch Eltern? Diese Entscheidung hat echte Folgen. Variante eins: Depot auf das Kind. Das Geld gehört rechtlich dem Kind, es hat eigene Steuerfreibeträge, aber mit achtzehn entscheidet es allein darüber. Variante zwei: Depot auf euch. Ihr behaltet die volle Kontrolle, auch über den achtzehnten Geburtstag hinaus, nutzt aber eure eigenen Freibeträge. Was besser ist? Kommt auf eure Ziele an. Steuern, Kontrolle, Familienversicherung – das sortieren wir in einem Gespräch. Kostenlos. Link in Bio.",
+      "scenes": [
+        {
+          "text": "Depot aufs KIND\noder auf EUCH? 🤔",
+          "dur": 4
+        },
+        {
+          "text": "Diese Entscheidung\nhat echte Folgen 👇",
+          "dur": 3
+        },
+        {
+          "text": "Variante 1: Depot aufs Kind.\n✓ Eigene Steuerfreibeträge\n✓ Geld gehört dem Kind",
+          "dur": 6
+        },
+        {
+          "text": "Aber: Mit 18 entscheidet\ndas Kind ALLEIN. 🎂",
+          "dur": 4
+        },
+        {
+          "text": "Variante 2: Depot auf euch.\n✓ Volle Kontrolle – auch nach 18\n✗ Eure Freibeträge",
+          "dur": 6
+        },
+        {
+          "text": "Was ist besser?\nKommt auf EURE Ziele an.",
+          "dur": 4
+        },
+        {
+          "text": "Steuern, Kontrolle, Versicherung –\nsortieren wir gemeinsam.",
+          "dur": 4
+        },
+        {
+          "text": "→ Kostenlos: Link in Bio\n(Keine Steuer-/Anlageberatung im Video)",
+          "dur": 4
+        }
+      ]
+    },
+    "caption": "Die häufigste Frage in meinen Gesprächen – und es gibt keine Pauschalantwort, nur die richtige für EURE Situation. ⚖️\n\nIm kostenlosen Erstgespräch gehen wir beide Varianten für euch durch. Link in Bio.",
+    "hashtags": [
+      "#kinderdepot",
+      "#elterndepot",
+      "#erklärvideo",
+      "#etfsparplan",
+      "#sparenfürskind",
+      "#jungeeltern",
+      "#steuerfreibetrag",
+      "#finanzwissen"
+    ]
+  },
+  {
+    "id": "r04",
+    "angle": "emotion",
+    "topic": "Familienbeispiel: kleiner Betrag, großer Moment",
+    "format": "reel",
+    "goal": "trust",
+    "hooks": [
+      "Diese Familie startete mit 30 €. Heute kommt der Gänsehaut-Moment.",
+      "Warum ein 30-€-Sparplan mehr wert ist als er kostet."
+    ],
+    "script": {
+      "voiceover": "Eine Familie, mit der ich arbeite – Namen lasse ich natürlich weg – startete vor Jahren mit dreißig Euro im Monat für ihre Tochter. Dreißig Euro. Beide dachten: Das ist doch zu wenig, lohnt sich das überhaupt? Letzte Woche saßen wir zusammen und haben auf den Stand geschaut. Und die Mutter sagte einen Satz, den ich nicht vergesse: Das ist das erste Mal, dass ich beim Thema Geld keine Angst spüre, sondern Vorfreude. Darum geht es. Nicht um Reichtum über Nacht. Sondern um das Gefühl, für dein Kind vorgesorgt zu haben. Anfangen ist alles. Link in Bio.",
+      "scenes": [
+        {
+          "text": "Diese Familie startete\nmit 30 €/Monat. 👨‍👩‍👧",
+          "dur": 4
+        },
+        {
+          "text": "Beide dachten:\n„Lohnt sich das überhaupt?“",
+          "dur": 4
+        },
+        {
+          "text": "Letzte Woche: gemeinsamer Blick\nauf den Stand. 📊",
+          "dur": 4
+        },
+        {
+          "text": "Der Satz der Mutter:",
+          "dur": 3
+        },
+        {
+          "text": "„Das erste Mal keine ANGST\nbeim Thema Geld – sondern VORFREUDE.“",
+          "dur": 6
+        },
+        {
+          "text": "Darum geht's.\nNicht Reichtum über Nacht.",
+          "dur": 4
+        },
+        {
+          "text": "Sondern: das Gefühl,\nvorgesorgt zu haben. 🌱",
+          "dur": 4
+        },
+        {
+          "text": "Anfangen ist alles.\n→ Link in Bio\n(Einzelfall, kein typisches Ergebnis)",
+          "dur": 5
+        }
+      ]
+    },
+    "caption": "Es geht nicht um die Zahl auf dem Depot. Es geht um das Gefühl dahinter. ❤️\n\n(Beispiel aus der Praxis, anonymisiert. Einzelfall – Ergebnisse variieren, ETFs schwanken.)\n\nWenn du dieses Gefühl auch willst: kostenloses Erstgespräch, Link in Bio.",
+    "hashtags": [
+      "#familiengeschichte",
+      "#sparenfürskind",
+      "#etfsparplan",
+      "#jungeeltern",
+      "#vorfreude",
+      "#finanzenmitherz",
+      "#vorsorge",
+      "#anfangen"
+    ]
+  },
+  {
+    "id": "t01",
+    "angle": "story",
+    "topic": "Warum ich das mache",
+    "format": "image",
+    "goal": "trust",
+    "hooks": [
+      "Warum ich Finanzberater für Familien geworden bin.",
+      "Die ehrliche Antwort, warum ich diesen Job mache."
+    ],
+    "caption": "Kurz persönlich: Ich habe zu oft gesehen, wie Familien Geld verschenken – nicht aus Dummheit, sondern weil ihnen nie jemand die Basics ruhig erklärt hat. 🧡\n\nKeine Fachbegriffe-Schlacht, kein Produktdruck, keine versteckten Kosten. Einfach ehrlich sortieren, was für eure Familie passt – und was nicht. Manchmal ist meine Antwort auch: „Lasst es, das braucht ihr nicht.“\n\nWenn du Fragen hast: Schreib mir einfach. Ich antworte persönlich auf jede Nachricht. 💬",
+    "hashtags": [
+      "#übermich",
+      "#finanzberater",
+      "#ehrlichefinanzen",
+      "#familienfinanzen",
+      "#jungeeltern",
+      "#aufaugenhöhe",
+      "#vertrauen",
+      "#sparenfürskind"
+    ]
+  },
+  {
+    "id": "e01",
+    "angle": "frage",
+    "topic": "Community-Frage: Taschengeld & Geld lernen",
+    "format": "image",
+    "goal": "engagement",
+    "hooks": [
+      "Ab welchem Alter sollten Kinder über Geld mitreden?",
+      "Eure Meinung: Wann ist Geld ein Kinder-Thema?"
+    ],
+    "caption": "Ehrliche Frage an alle Eltern hier: Ab welchem Alter sprecht ihr mit euren Kindern über Geld? 💬\n\nA) Sobald sie zählen können\nB) Ab der Grundschule\nC) Erst wenn sie Taschengeld bekommen\nD) Geld ist bei uns (noch) kein Kinderthema\n\nSchreibt den Buchstaben in die Kommentare – ich bin wirklich gespannt, und ich antworte auf jede Antwort. 👇",
+    "hashtags": [
+      "#elternfrage",
+      "#taschengeld",
+      "#finanzbildung",
+      "#kinderundgeld",
+      "#jungeeltern",
+      "#community",
+      "#familienleben",
+      "#geldlernen"
+    ]
+  }
 ]
