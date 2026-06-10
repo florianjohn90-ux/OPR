@@ -6,11 +6,13 @@
   "description": "Organische Content-Engine: Research -> Generierung -> Kalender -> Meta-Publishing",
   "scripts": {
     "research": "node research.mjs",
-    "generate": "node generate.mjs --count 30",
-    "calendar": "node calendar.mjs",
+    "replenish": "node replenish.mjs",
+    "brandify": "node brandify.mjs",
+    "render": "node render-image.mjs && node render-video.mjs",
     "publish": "node publish-meta.mjs",
     "publish:review": "node publish-meta.mjs --review",
-    "run:all": "node research.mjs && node generate.mjs --count 30 && node calendar.mjs"
+    "engage": "node engage.mjs",
+    "run:all": "node replenish.mjs && node brandify.mjs && node render-image.mjs && node render-video.mjs"
   },
   "dependencies": {
     "nodemailer": "^6.9.14",

@@ -33,17 +33,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: '22' }
-      - name: Publish due posts
+      - name: Publish due posts (alle Marken)
         working-directory: leadgen/engine
         env:
+          BRANDS_META_JSON: ${{ secrets.BRANDS_META_JSON }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
           PUBLIC_ASSET_BASE: ${{ vars.PUBLIC_ASSET_BASE }}
         run: node publish-meta.mjs
-      - name: Engage (Kommentare & Nachrichten beantworten)
+      - name: Engage (Kommentare & Nachrichten, alle Marken)
         working-directory: leadgen/engine
         env:
+          BRANDS_META_JSON: ${{ secrets.BRANDS_META_JSON }}
           META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
           META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
           META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
@@ -53,7 +55,7 @@ jobs:
         run: |
           git config user.name "social-autopilot"
           git config user.email "actions@github.com"
-          git add leadgen/content/calendar.json leadgen/content/engage-state.json
+          git add leadgen/content/
           git diff --cached --quiet || git commit -m "autopilot: publish + engage status"
           git push
 
@@ -75,10 +77,14 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node replenish.mjs
-      - name: Schedule + render images & videos
+      - name: Brandify (Bank -> 10 Marken-Kalender, je Marke neu getextet)
+        working-directory: leadgen/engine
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node brandify.mjs
+      - name: Render images & videos (alle Marken, 7-Tage-Fenster)
         working-directory: leadgen/engine
         run: |
-          node calendar.mjs
           node render-image.mjs
           node render-video.mjs
       - name: Commit new content
