@@ -108,7 +108,20 @@ for (const brand of brands) {
   const creds = credsFor(brand.id);
   if (!creds) { console.log(`⏭  ${brand.name}: keine Zugangsdaten (BRANDS_META_JSON) — ${due.length} Posts warten.`); continue; }
 
+  // Warm-up-Rampe: frische Accounts posten gedrosselt (Tag 1-3: 1/Tag/Plattform,
+  // Tag 4-7: 2, danach voll) — neue Accounts mit Vollgas wirken wie Spam-Netzwerke.
+  const posted = plan.filter(p => p.status === 'posted');
+  const firstPost = posted.reduce((m, p) => Math.min(m, new Date(p.postedAt).getTime()), Infinity);
+  const ageDays = firstPost === Infinity ? 0 : (Date.now() - firstPost) / 86400000;
+  const maxPerDay = ageDays < 3 ? 1 : ageDays < 7 ? 2 : Infinity;
+  const todayCount = plat => posted.filter(p => p.platform === plat
+    && Date.now() - new Date(p.postedAt).getTime() < 86400000).length;
+
   for (const p of due) {
+    if (todayCount(p.platform) >= maxPerDay) {
+      console.log(`🐢 [${brand.id}] ${p.platform} Warm-up-Limit (${maxPerDay}/Tag) — ${p.id} wartet`);
+      continue;
+    }
     if ((p.format === 'reel' || p.format === 'list') && !p.assetPath) { console.log(`… ${brand.id}/${p.id} wartet auf Video`); continue; }
     if (p.platform !== 'facebook' && !p.assetPath && !p.assetPaths) { console.log(`… ${brand.id}/${p.id} wartet auf Bild`); continue; }
     try {
