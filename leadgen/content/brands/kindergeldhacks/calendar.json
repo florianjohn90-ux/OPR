@@ -2310,7 +2310,9 @@
       }
     ],
     "rewritten": false,
-    "status": "scheduled"
+    "status": "scheduled",
+    "assetPath": "content/brands/kindergeldhacks/assets/l01-instagram.mp4",
+    "music": "ambient-fallback"
   },
   {
     "id": "kindergeldhacks-l02-instagram",

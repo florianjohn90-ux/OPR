@@ -30,7 +30,7 @@ for (const brand of brands) {
   for (const post of plan) {
     if (post.status !== 'scheduled') continue;
     if (new Date(post.scheduledFor).getTime() > horizon) continue;
-    if (post.format === 'reel') continue;
+    if (post.format === 'reel' || post.format === 'list') continue; // macht render-video.mjs
 
     const out = async (svg, file) => {
       await sharp(Buffer.from(svg)).jpeg({ quality: 88 }).toFile(new URL('assets/' + file, dir).pathname);
@@ -48,12 +48,7 @@ for (const brand of brands) {
     };
     const media = await mediaFor(dir, post.bankId);
 
-    if (post.format === 'list' && Array.isArray(post.items)) {
-      if (post.assetPath) continue;
-      post.assetPath = await out(
-        renderList({ headline: post.headline || post.hook, items: post.items, brand, seed: post.id }),
-        `${post.bankId || post.id}-${post.platform}.jpg`);
-    } else if (post.format === 'carousel' && Array.isArray(post.slides)) {
+    if (post.format === 'carousel' && Array.isArray(post.slides)) {
       if (post.assetPaths?.length === post.slides.length && post.usedMedia === !!media) continue;
       const paths = [];
       for (let s = 0; s < post.slides.length; s++) {

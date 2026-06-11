@@ -50,6 +50,7 @@ function api(token) {
 
 async function publishOne(p, creds) {
   const { json, upload, wait } = api(creds.pageToken);
+  const isVideo = !!p.assetPath?.endsWith('.mp4'); // reel ODER list-als-Standbild-Video
   if (p.platform === 'facebook') {
     if (p.format === 'carousel' && p.assetPaths?.length) {
       const ids = [];
@@ -58,7 +59,7 @@ async function publishOne(p, creds) {
         ids.push((await upload(`${creds.pageId}/photos`, { published: 'false' }, buf, rel.split('/').pop(), 'image/jpeg')).id);
       }
       await json(`${creds.pageId}/feed`, { message: text(p), attached_media: ids.map(id => ({ media_fbid: id })) });
-    } else if (p.format === 'reel' && p.assetPath) {
+    } else if (isVideo) {
       const buf = await readFile(new URL(p.assetPath, rootUrl));
       await upload(`${creds.pageId}/videos`, { description: text(p) }, buf, 'reel.mp4', 'video/mp4');
     } else if (p.assetPath) {
@@ -77,7 +78,7 @@ async function publishOne(p, creds) {
         children.push((await json(`${creds.igUserId}/media`, { image_url: url(rel), is_carousel_item: true })).id);
       const parent = await json(`${creds.igUserId}/media`, { media_type: 'CAROUSEL', children: children.join(','), caption: text(p) });
       await json(`${creds.igUserId}/media_publish`, { creation_id: parent.id });
-    } else if (p.format === 'reel' && p.assetPath) {
+    } else if (isVideo) {
       const c = await json(`${creds.igUserId}/media`, { media_type: 'REELS', video_url: url(p.assetPath), caption: text(p) });
       await wait(c.id);
       await json(`${creds.igUserId}/media_publish`, { creation_id: c.id });
@@ -108,7 +109,7 @@ for (const brand of brands) {
   if (!creds) { console.log(`⏭  ${brand.name}: keine Zugangsdaten (BRANDS_META_JSON) — ${due.length} Posts warten.`); continue; }
 
   for (const p of due) {
-    if (p.format === 'reel' && !p.assetPath) { console.log(`… ${brand.id}/${p.id} wartet auf Video`); continue; }
+    if ((p.format === 'reel' || p.format === 'list') && !p.assetPath) { console.log(`… ${brand.id}/${p.id} wartet auf Video`); continue; }
     if (p.platform !== 'facebook' && !p.assetPath && !p.assetPaths) { console.log(`… ${brand.id}/${p.id} wartet auf Bild`); continue; }
     try {
       await publishOne(p, creds);
