@@ -79,19 +79,29 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node replenish.mjs
-      - name: Brandify (Bank -> 10 Marken-Kalender, je Marke neu getextet)
+      - name: Brandify (Bank -> 11 Marken-Kalender, je Marke neu getextet)
         working-directory: leadgen/engine
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node brandify.mjs
-      - name: Render images & videos (alle Marken, 7-Tage-Fenster)
+      - name: Higgsfield-Briefs aktualisieren (Budget-priorisierte Prompts)
+        working-directory: leadgen/engine
+        run: node media-briefs.mjs
+      - name: Higgsfield-Assets generieren (wenn Credentials vorhanden)
+        working-directory: leadgen/engine
+        env:
+          HF_CREDS: ${{ secrets.HIGGSFIELD_CREDENTIALS }}
+          HIGGSFIELD_CREDENTIALS_PATH: /tmp/hf-credentials.json
+        run: |
+          if [ -z "$HF_CREDS" ]; then echo "Kein HIGGSFIELD_CREDENTIALS-Secret — übersprungen."; exit 0; fi
+          npm install -g @higgsfield/cli
+          printf '%s' "$HF_CREDS" > /tmp/hf-credentials.json
+          node higgsfield-fetch.mjs
+      - name: Render images & videos (Composite mit Higgsfield-Assets + Fallback)
         working-directory: leadgen/engine
         run: |
           node render-image.mjs
           node render-video.mjs
-      - name: Higgsfield-Briefs aktualisieren (Prompts fuer alle geplanten Posts)
-        working-directory: leadgen/engine
-        run: node media-briefs.mjs
       - name: Commit new content
         run: |
           git config user.name "social-autopilot"
