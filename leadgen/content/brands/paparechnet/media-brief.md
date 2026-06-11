@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Papa rechnet (@papa.rechnet)
+# Higgsfield-Brief: Papa rechnet (@papa.rechnet) — PLUS-Budget
 
 Bildwelt: Väter, Zahlen & Beispielrechnungen — direkt, faktisch, leicht trocken-humorvoll
 Details: config/visual-direction.md
@@ -153,4 +153,26 @@ high-contrast desaturated photo with yellow accent, German father late 30s glass
 **Bild-Prompt (4:5):**
 ```
 high-contrast desaturated photo with yellow accent, German father late 30s glasses flannel shirt, desk with calculator and whiteboard full of numbers, harsh desk lamp light, 28mm, documentary style, gritty, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p15 — Ab wann lohnt sich ein Sparplan?  _(image, frage)_
+**Hook:** Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?
+**Datei ablegen als:** `content/brands/paparechnet/media/p15.jpg`
+
+**Bild-Prompt (4:5):**
+```
+high-contrast desaturated photo with yellow accent, German father late 30s glasses flannel shirt, desk with calculator and whiteboard full of numbers, harsh desk lamp light, 28mm, documentary style, gritty, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p16 — Keine Zeit für Finanzkram  _(image, einwand)_
+**Hook:** „Keine Zeit für Finanzkram.“ Brauchst du auch nicht.
+**Datei ablegen als:** `content/brands/paparechnet/media/p16.jpg`
+
+**Bild-Prompt (4:5):**
+```
+high-contrast desaturated photo with yellow accent, German father late 30s glasses flannel shirt, desk with calculator and whiteboard full of numbers, harsh desk lamp light, 28mm, documentary style, gritty, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait
 ```

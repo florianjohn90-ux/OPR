@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Mit 18 frei (@mit18frei)
+# Higgsfield-Brief: Mit 18 frei (@mit18frei) — PLUS-Budget
 
 Bildwelt: Langfrist-Emotion: der Moment der Volljährigkeit, Startkapital, Träume des Kindes
 Details: config/visual-direction.md

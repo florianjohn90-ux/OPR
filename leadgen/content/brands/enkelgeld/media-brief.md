@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Enkelgeld (@enkelgeld)
+# Higgsfield-Brief: Enkelgeld (@enkelgeld) — PLUS-Budget
 
 Bildwelt: Großeltern & Geldgeschenke — wie Oma & Opa sinnvoll fürs Enkelkind vorsorgen
 Details: config/visual-direction.md

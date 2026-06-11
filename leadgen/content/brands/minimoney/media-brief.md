@@ -1,4 +1,4 @@
-# Higgsfield-Brief: MiniMoney Club (@minimoney.club)
+# Higgsfield-Brief: MiniMoney Club (@minimoney.club) — PLUS-Budget
 
 Bildwelt: Kindern Geld erklären + nebenbei für sie vorsorgen — Edutainment für Eltern & Kids
 Details: config/visual-direction.md
@@ -12,7 +12,8 @@ Details: config/visual-direction.md
 bright playful educational photo, child hands and parent hand with coins building blocks and labeled jars on white table, primary color pop, clean daylight, 35mm top-down, joyful learning aesthetic, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait
 ```
 
----
+
+# ⏸ Optional (über Wochen-Budget — nur bei Rest-Credits)
 
 ## p02 — Sparbuch verliert gegen Inflation  _(image, schmerz)_
 **Hook:** Das Sparbuch fürs Kind verliert jedes Jahr Wert.

@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Team Familienkasse (@team.familienkasse)
+# Higgsfield-Brief: Team Familienkasse (@team.familienkasse) — PLUS-Budget
 
 Bildwelt: Story-getrieben: anonymisierte Alltagsgeschichten von Familien & ihren Finanzentscheidungen
 Details: config/visual-direction.md

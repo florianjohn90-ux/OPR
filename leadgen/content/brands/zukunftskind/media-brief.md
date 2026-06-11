@@ -1,7 +1,11 @@
-# Higgsfield-Brief: projekt zukunftskind (@projekt.zukunftskind)
+# Higgsfield-Brief: projekt zukunftskind (@projekt.zukunftskind) — PLUS-Budget
 
 Bildwelt: Planerische Eltern: Ziele, Meilensteine, ruhiger Vermögensaufbau als Projekt
 Details: config/visual-direction.md
+
+
+
+# ⏸ Optional (über Wochen-Budget — nur bei Rest-Credits)
 
 ## p01 — Warten kostet Zinseszins  _(image, schmerz)_
 **Hook:** Jedes Jahr Warten kostet dein Kind richtig Geld.

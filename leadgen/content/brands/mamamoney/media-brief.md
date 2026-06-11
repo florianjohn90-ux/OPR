@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Mama & Moneten (@mama.und.moneten)
+# Higgsfield-Brief: Mama & Moneten (@mama.und.moneten) — PLUS-Budget
 
 Bildwelt: Mütter, mentale Last & Familienfinanzen — sanft, entlastend, Schritt für Schritt
 Details: config/visual-direction.md
@@ -153,4 +153,26 @@ soft lifestyle film photo, young German mother early 30s messy bun cream knit sw
 **Bild-Prompt (4:5):**
 ```
 soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p15 — Ab wann lohnt sich ein Sparplan?  _(image, frage)_
+**Hook:** Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?
+**Datei ablegen als:** `content/brands/mamamoney/media/p15.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p16 — Keine Zeit für Finanzkram  _(image, einwand)_
+**Hook:** „Keine Zeit für Finanzkram.“ Brauchst du auch nicht.
+**Datei ablegen als:** `content/brands/mamamoney/media/p16.jpg`
+
+**Bild-Prompt (4:5):**
+```
+soft lifestyle film photo, young German mother early 30s messy bun cream knit sweater, bright scandinavian living room, morning light through sheer curtains, pastel pink-beige grade, 50mm f1.8, grainy film look, cozy, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait
 ```

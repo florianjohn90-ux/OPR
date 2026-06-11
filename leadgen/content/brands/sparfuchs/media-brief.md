@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Sparfuchs-Familie (@sparfuchs.familie)
+# Higgsfield-Brief: Sparfuchs-Familie (@sparfuchs.familie) — PLUS-Budget
 
 Bildwelt: Alltags-Spartipps für Familien + was mit dem Ersparten passiert
 Details: config/visual-direction.md
@@ -153,4 +153,26 @@ candid family snapshot photo, German family kitchen with shopping lists on fridg
 **Bild-Prompt (4:5):**
 ```
 candid family snapshot photo, German family kitchen with shopping lists on fridge and piggy bank, warm daylight, orange-green accents, 35mm, slightly tilted spontaneous framing, authentic clutter, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p15 — Ab wann lohnt sich ein Sparplan?  _(image, frage)_
+**Hook:** Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?
+**Datei ablegen als:** `content/brands/sparfuchs/media/p15.jpg`
+
+**Bild-Prompt (4:5):**
+```
+candid family snapshot photo, German family kitchen with shopping lists on fridge and piggy bank, warm daylight, orange-green accents, 35mm, slightly tilted spontaneous framing, authentic clutter, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p16 — Keine Zeit für Finanzkram  _(image, einwand)_
+**Hook:** „Keine Zeit für Finanzkram.“ Brauchst du auch nicht.
+**Datei ablegen als:** `content/brands/sparfuchs/media/p16.jpg`
+
+**Bild-Prompt (4:5):**
+```
+candid family snapshot photo, German family kitchen with shopping lists on fridge and piggy bank, warm daylight, orange-green accents, 35mm, slightly tilted spontaneous framing, authentic clutter, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait
 ```

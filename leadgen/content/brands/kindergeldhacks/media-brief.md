@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Kindergeld-Hacks (@kindergeld.hacks)
+# Higgsfield-Brief: Kindergeld-Hacks (@kindergeld.hacks) — PLUS-Budget
 
 Bildwelt: Kindergeld, Freibeträge, staatliche Förderungen — und was man daraus macht
 Details: config/visual-direction.md

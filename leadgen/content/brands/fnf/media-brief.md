@@ -1,4 +1,4 @@
-# Higgsfield-Brief: FNF Finanzen (@fnf.finanzen)
+# Higgsfield-Brief: FNF Finanzen (@fnf.finanzen) — PLUS-Budget
 
 Bildwelt: Hauptmarke: persönliche Finanzberatung für junge Familien, Florian als Gesicht
 Details: config/visual-direction.md
@@ -153,4 +153,26 @@ cinematic documentary photo, German financial advisor mid-30s with light stubble
 **Bild-Prompt (4:5):**
 ```
 cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p15 — Ab wann lohnt sich ein Sparplan?  _(image, frage)_
+**Hook:** Ab welchem Betrag lohnt sich ein Sparplan fürs Kind?
+**Datei ablegen als:** `content/brands/fnf/media/p15.jpg`
+
+**Bild-Prompt (4:5):**
+```
+cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait
+```
+
+---
+
+## p16 — Keine Zeit für Finanzkram  _(image, einwand)_
+**Hook:** „Keine Zeit für Finanzkram.“ Brauchst du auch nicht.
+**Datei ablegen als:** `content/brands/fnf/media/p16.jpg`
+
+**Bild-Prompt (4:5):**
+```
+cinematic documentary photo, German financial advisor mid-30s with light stubble in dark shirt, warm evening light, modern home office with family photos, teal-orange grade, 35mm f2.0, natural skin texture, lived-in space, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait
 ```

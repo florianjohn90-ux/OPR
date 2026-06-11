@@ -1,4 +1,4 @@
-# Higgsfield-Brief: Elternzeit & Euros (@elternzeit.euros)
+# Higgsfield-Brief: Elternzeit & Euros (@elternzeit.euros) — PLUS-Budget
 
 Bildwelt: Frischgebackene Eltern 0-2 Jahre: Elterngeld, knappes Budget, erster Sparplan
 Details: config/visual-direction.md
