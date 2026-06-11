@@ -16,10 +16,12 @@ on:
     - cron: '*/30 7-20 * * *'
     - cron: '0 3 * * *'
     - cron: '0 4 * * 1'
+    - cron: '30 19 * * *'
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: social-autopilot
@@ -96,6 +98,62 @@ jobs:
           git config user.email "actions@github.com"
           git add leadgen/content/
           git diff --cached --quiet || git commit -m "autopilot: replenish content + assets"
+          git push
+
+  # Taeglich 19:30 UTC: Stats sammeln, Dashboard aktualisieren, Tages-Update als
+  # Issue-Kommentar -> Push-Benachrichtigung via GitHub-App auf dem Handy.
+  daily-report:
+    if: github.event.schedule == '30 19 * * *'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22' }
+      - name: Collect stats
+        working-directory: leadgen/engine
+        env:
+          BRANDS_META_JSON: ${{ secrets.BRANDS_META_JSON }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          META_PAGE_TOKEN: ${{ secrets.META_PAGE_TOKEN }}
+          META_IG_USER_ID: ${{ secrets.META_IG_USER_ID }}
+        run: node stats.mjs
+      - name: Build report + update dashboard data
+        working-directory: leadgen/engine
+        run: |
+          node report.mjs > /tmp/report.md
+          cp ../content/stats.json ../content/stats-history.ndjson ../dashboard/ 2>/dev/null || true
+      - name: Post report to status issue (Handy-Push)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 - << 'EOF'
+          import json, os, urllib.request
+
+          def api(path, data=None):
+              req = urllib.request.Request(
+                  f"https://api.github.com/repos/{os.environ['REPO']}{path}",
+                  data=json.dumps(data).encode() if data else None,
+                  headers={"Authorization": f"Bearer {os.environ['GH_TOKEN']}",
+                           "Accept": "application/vnd.github+json"})
+              return json.load(urllib.request.urlopen(req))
+
+          TITLE = "📊 Lead-Maschine: Status-Updates"
+          issues = api("/issues?state=open&per_page=100")
+          num = next((i["number"] for i in issues if i["title"] == TITLE), None)
+          if num is None:
+              num = api("/issues", {"title": TITLE, "body":
+                  "Automatische Tages-Updates der Lead-Maschine. "
+                  "Dieses Issue abonnieren (Subscribe) -> jedes Update kommt als Push aufs Handy."})["number"]
+          api(f"/issues/{num}/comments", {"body": open("/tmp/report.md").read()})
+          print(f"Report an Issue #{num} gepostet.")
+          EOF
+      - name: Commit stats
+        run: |
+          git config user.name "social-autopilot"
+          git config user.email "actions@github.com"
+          git add leadgen/content/stats* leadgen/dashboard/ leadgen/reports/ 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "autopilot: daily stats + report"
           git push
 
   research:

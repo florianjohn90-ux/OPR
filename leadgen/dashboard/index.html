@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Lead-Maschine · Dashboard</title>
+<style>
+  :root{--bg:#0e1726;--card:#15233f;--line:#24365c;--ink:#eaf1ff;--dim:#9fb2d6;--ok:#36c08a;--warn:#ffce4d;--bad:#ff6b6b}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--ink);padding:24px}
+  h1{font-size:24px;margin:0 0 4px} .sub{color:var(--dim);font-size:14px;margin-bottom:24px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px;margin-bottom:24px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .kpi .v{font-size:32px;font-weight:800} .kpi .l{color:var(--dim);font-size:13px;margin-top:4px}
+  .kpi .delta{font-size:13px;margin-left:8px} .up{color:var(--ok)} .down{color:var(--bad)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:18px}
+  h2{font-size:16px;margin:0 0 14px;color:var(--dim);font-weight:600}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th{text-align:left;color:var(--dim);font-weight:600;padding:8px;border-bottom:1px solid var(--line)}
+  td{padding:8px;border-bottom:1px solid rgba(36,54,92,.5)}
+  .bar-bg{background:var(--bg);border-radius:6px;height:10px;overflow:hidden}
+  .bar{height:100%;background:var(--ok);border-radius:6px}
+  canvas{width:100%;height:220px}
+  .err{color:var(--bad)} .muted{color:var(--dim)}
+  .alert{border:1px solid rgba(255,107,107,.4);background:rgba(255,107,107,.08);border-radius:12px;padding:12px 16px;margin-bottom:18px}
+</style>
+</head>
+<body>
+  <h1>🚀 Lead-Maschine</h1>
+  <div class="sub">Stand: <span id="ts">lade…</span> · aktualisiert sich mit jedem Stats-Lauf</div>
+  <div id="alerts"></div>
+  <div class="grid" id="kpis"></div>
+  <div class="card"><h2>Follower-Verlauf (FB + IG gesamt)</h2><canvas id="chart" width="1000" height="220"></canvas></div>
+  <div class="card"><h2>Marken</h2><table id="brands"><thead><tr>
+    <th>Marke</th><th>Status</th><th>IG</th><th>FB</th><th>Posts 7d</th><th>Vorrat</th><th>Fehler</th><th></th>
+  </tr></thead><tbody></tbody></table></div>
+<script>
+async function load(){
+  const s = await (await fetch('stats.json?'+Date.now())).json();
+  let hist = [];
+  try{
+    const raw = await (await fetch('stats-history.ndjson?'+Date.now())).text();
+    hist = raw.trim().split('\n').filter(Boolean).map(JSON.parse);
+  }catch(e){ hist=[s]; }
+
+  document.getElementById('ts').textContent = new Date(s.ts).toLocaleString('de-DE');
+  const t = s.totals;
+  const weekAgo = hist.findLast(h => new Date(h.ts) < Date.now() - 6.5*864e5) || hist[0];
+  const delta = t.followersTotal - (weekAgo?.totals?.followersTotal ?? t.followersTotal);
+
+  const kpis = [
+    {v:t.followersTotal, l:'Follower gesamt', d:delta},
+    {v:t.posted7d, l:'Posts (7 Tage)'},
+    {v:t.scheduled, l:'Posts im Vorrat'},
+    {v:t.connectedBrands+'/11', l:'Marken verbunden'},
+    {v:t.escalationsOpen, l:'Offene Eskalationen', bad:t.escalationsOpen>0},
+    {v:t.errors, l:'Posting-Fehler', bad:t.errors>0}
+  ];
+  document.getElementById('kpis').innerHTML = kpis.map(k=>
+    '<div class="kpi"><div class="v'+(k.bad?' err':'')+'">'+k.v+
+    (k.d!==undefined?'<span class="delta '+(k.d>=0?'up':'down')+'">'+(k.d>=0?'+':'')+k.d+' / Woche</span>':'')+
+    '</div><div class="l">'+k.l+'</div></div>').join('');
+
+  const alerts=[];
+  if(t.errors>0) alerts.push('⚠️ '+t.errors+' Posting-Fehler — Brand-Kalender prüfen.');
+  if(t.escalationsOpen>0) alerts.push('🚩 '+t.escalationsOpen+' Kommentare/DMs warten auf persönliche Antwort.');
+  document.getElementById('alerts').innerHTML = alerts.map(a=>'<div class="alert">'+a+'</div>').join('');
+
+  // Follower-Chart
+  const pts = hist.map(h=>({x:new Date(h.ts).getTime(), y:h.totals.followersTotal}));
+  const c = document.getElementById('chart').getContext('2d');
+  const W=1000,H=220,P=30;
+  const xs=pts.map(p=>p.x), ys=pts.map(p=>p.y);
+  const x0=Math.min(...xs),x1=Math.max(...xs)||1,y1=Math.max(...ys,10);
+  c.clearRect(0,0,W,H); c.strokeStyle='#36c08a'; c.lineWidth=2.5; c.beginPath();
+  pts.forEach((p,i)=>{const X=P+(W-2*P)*((p.x-x0)/Math.max(1,x1-x0));const Y=H-P-(H-2*P)*(p.y/y1);
+    i?c.lineTo(X,Y):c.moveTo(X,Y)});
+  c.stroke();
+  c.fillStyle='#9fb2d6'; c.font='12px sans-serif';
+  c.fillText('0',6,H-P+4); c.fillText(String(y1),6,P+4);
+
+  // Marken-Tabelle
+  const maxF = Math.max(...Object.values(s.brands).map(b=>(b.igFollowers||0)+(b.fbFans||0)),1);
+  document.querySelector('#brands tbody').innerHTML = Object.values(s.brands)
+    .sort((a,b)=>((b.igFollowers||0)+(b.fbFans||0))-((a.igFollowers||0)+(a.fbFans||0)))
+    .map(b=>{const f=(b.igFollowers||0)+(b.fbFans||0);return '<tr><td>'+b.name+'</td><td>'+(b.connected?'🟢':'⚪️')+
+    '</td><td>'+(b.igFollowers??'—')+'</td><td>'+(b.fbFans??'—')+'</td><td>'+b.posted7d+'</td><td>'+b.scheduled+
+    '</td><td class="'+(b.errors?'err':'muted')+'">'+(b.errors||'')+'</td>'+
+    '<td style="width:140px"><div class="bar-bg"><div class="bar" style="width:'+Math.round(100*f/maxF)+'%"></div></div></td></tr>'}).join('');
+}
+load();
+</script>
+</body>
+</html>
