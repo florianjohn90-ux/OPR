@@ -1,0 +1,128 @@
+[
+  {
+    "bankId": "p01",
+    "format": "image",
+    "topic": "Warten kostet Zinseszins",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p01.jpg"
+  },
+  {
+    "bankId": "p02",
+    "format": "image",
+    "topic": "Sparbuch verliert gegen Inflation",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, worried parent looking at savings passbook and bills at kitchen table, concern slowly turning into resolve, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p02.jpg"
+  },
+  {
+    "bankId": "p03",
+    "format": "image",
+    "topic": "25 Euro reichen zum Start",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p03.jpg"
+  },
+  {
+    "bankId": "p04",
+    "format": "image",
+    "topic": "3 Fehler beim Sparen fürs Kind",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p04.jpg"
+  },
+  {
+    "bankId": "p05",
+    "format": "image",
+    "topic": "Was passiert mit 18 mit dem Geld?",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p05.jpg"
+  },
+  {
+    "bankId": "p06",
+    "format": "image",
+    "topic": "Sparbuch vs. Tagesgeld vs. ETF",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, two jars side by side, one nearly empty one growing with coins and a small plant sprouting from it, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p06.jpg"
+  },
+  {
+    "bankId": "p07",
+    "format": "image",
+    "topic": "Omas Geldgeschenke bündeln",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p07.jpg"
+  },
+  {
+    "bankId": "p08",
+    "format": "image",
+    "topic": "ETFs sind mir zu riskant",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, sceptical parent with crossed arms gradually softening, listening, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p08.jpg"
+  },
+  {
+    "bankId": "p09",
+    "format": "image",
+    "topic": "Checkliste: Sparplan starten",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, hands following clear steps: writing a checklist, setting up banking app on phone, organized desk, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p09.jpg"
+  },
+  {
+    "bankId": "p10",
+    "format": "image",
+    "topic": "Der 18. Geburtstag",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, emotional milestone moment, tears of joy or proud embrace, golden light, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p10.jpg"
+  },
+  {
+    "bankId": "p11",
+    "format": "image",
+    "topic": "Depot auf Kind oder Eltern?",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, parent pausing thoughtfully mid-task, questioning look, head slightly tilted, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p11.jpg"
+  },
+  {
+    "bankId": "p12",
+    "format": "image",
+    "topic": "Aktien sind Glücksspiel",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, contrast scene: scattered casino chips versus a young plant growing out of a jar of coins, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p12.jpg"
+  },
+  {
+    "bankId": "p13",
+    "format": "image",
+    "topic": "Startzeitpunkt schlägt Sparrate",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, parent having a lightbulb moment looking at phone, surprised smile, leaning in, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p13.jpg"
+  },
+  {
+    "bankId": "p14",
+    "format": "image",
+    "topic": "Der erste Schritt nach der Geburt",
+    "inBudget": true,
+    "imagePrompt": "cinematic film still, warm golden backlight with anamorphic flare, amber grade, 40mm anamorphic shallow depth of field, emotional German coming-of-age moment, intimate everyday family moment, mid-action, natural interaction between family members, photorealistic, authentic, no text, no watermark, 4:5 portrait",
+    "videoPrompt": null,
+    "targetFile": "content/brands/mit18frei/media/p14.jpg"
+  }
+]

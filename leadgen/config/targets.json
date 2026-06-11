@@ -1,0 +1,24 @@
+{
+  "ziel": {
+    "termine_pro_woche": 20,
+    "termin_dauer_min": 60,
+    "kommentar": "stattfindende Termine, nicht nur gebuchte"
+  },
+  "funnel_kpis": {
+    "buchungsrate": 0.04,
+    "show_rate": 0.60,
+    "noetige_qualifizierte_besucher_pro_woche": 835,
+    "kommentar": "20 = Besucher * buchungsrate * show_rate"
+  },
+  "content_velocity": {
+    "reels_pro_tag": 1,
+    "carousels_pro_woche": 4,
+    "stories_pro_tag": 3,
+    "plattformen": ["instagram", "facebook"]
+  },
+  "stellschrauben": [
+    "Reichweite zu niedrig -> mehr Reels, staerkere Hooks",
+    "Buchungsrate zu niedrig -> Funnel-Hook/Angebot/CTA schaerfen",
+    "Show-Rate zu niedrig -> Reminder-Sequenz + Qualifizierung verschaerfen"
+  ]
+}

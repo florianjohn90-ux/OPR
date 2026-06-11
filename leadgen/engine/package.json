@@ -1,0 +1,21 @@
+{
+  "name": "fnf-leadgen-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Organische Content-Engine: Research -> Generierung -> Kalender -> Meta-Publishing",
+  "scripts": {
+    "research": "node research.mjs",
+    "replenish": "node replenish.mjs",
+    "brandify": "node brandify.mjs",
+    "render": "node render-image.mjs && node render-video.mjs",
+    "publish": "node publish-meta.mjs",
+    "publish:review": "node publish-meta.mjs --review",
+    "engage": "node engage.mjs",
+    "run:all": "node replenish.mjs && node brandify.mjs && node render-image.mjs && node render-video.mjs"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.14",
+    "sharp": "^0.33.4"
+  }
+}
